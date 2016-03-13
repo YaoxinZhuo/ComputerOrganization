@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="PreFullAdder1.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PreFullAdder1.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="PreFullAdder1.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="PreFullAdder1.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PreFullAdder1test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="PreFullAdder1test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="PreFullAdder1test_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PreFullAdder1test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1457836952" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1457836952">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1457838459" xil_pn:in_ck="6132055890796800390" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1457838459">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="FullAdder1.v"/>
+      <outfile xil_pn:name="PreFullAdder1.v"/>
+      <outfile xil_pn:name="PreFullAdder1test.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1457837225" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="7090300282204984098" xil_pn:start_ts="1457837225">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1457837225" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2861136031088783072" xil_pn:start_ts="1457837225">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1457837225" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-5464035833363217" xil_pn:start_ts="1457837225">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1457838463" xil_pn:in_ck="6132055890796800390" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1457838463">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="FullAdder1.v"/>
+      <outfile xil_pn:name="PreFullAdder1.v"/>
+      <outfile xil_pn:name="PreFullAdder1test.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1457838465" xil_pn:in_ck="6132055890796800390" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7559293559570110851" xil_pn:start_ts="1457838463">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="PreFullAdder1test_beh.prj"/>
+      <outfile xil_pn:name="PreFullAdder1test_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1457838465" xil_pn:in_ck="-2666677612192517382" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8066682860779237562" xil_pn:start_ts="1457838465">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="PreFullAdder1test_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1457837503" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1457837503">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1457837503" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-5254226041650247552" xil_pn:start_ts="1457837503">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1457837503" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-5464035833363217" xil_pn:start_ts="1457837503">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1457837503" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1457837503">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1457837503" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="7461407162691288002" xil_pn:start_ts="1457837503">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

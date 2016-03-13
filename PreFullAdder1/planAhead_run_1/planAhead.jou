@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sun Mar 13 10:51:47 2016
+# Process ID: 2512
+# Log file: Y:/Desktop/ComputerOrganization/PreFullAdder1/planAhead_run_1/planAhead.log
+# Journal file: Y:/Desktop/ComputerOrganization/PreFullAdder1/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source Y:/Desktop/ComputerOrganization/PreFullAdder1/pa.fromHdl.tcl
+update_compile_order -fileset sim_1

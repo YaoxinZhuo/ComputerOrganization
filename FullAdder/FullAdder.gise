@@ -110,6 +110,7 @@
     <transform xil_pn:end_ts="1457832141" xil_pn:in_ck="4960206136335525552" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-1196039671973526155" xil_pn:start_ts="1457832139">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="FullAdder1test_beh.prj"/>
@@ -122,6 +123,8 @@
     <transform xil_pn:end_ts="1457832141" xil_pn:in_ck="-6622173201629016794" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7568450068411373256" xil_pn:start_ts="1457832141">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="FullAdder1test_isim_beh.wdb"/>
