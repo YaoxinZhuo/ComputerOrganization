@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/ComputerOrganization/FullAdder/FullAdder1.xst" -ofn "C:/ComputerOrganization/FullAdder/FullAdder1.syr" 
