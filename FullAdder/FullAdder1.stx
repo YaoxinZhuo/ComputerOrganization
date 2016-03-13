@@ -1,16 +1,16 @@
 Release 14.7 - xst P.20131013 (nt)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to C:/ComputerOrganization/FullAdder/xst/projnav.tmp
+--> Parameter TMPDIR set to Y:/Desktop/ComputerOrganization/FullAdder/xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.12 secs
  
---> Parameter xsthdpdir set to C:/ComputerOrganization/FullAdder/xst
+--> Parameter xsthdpdir set to Y:/Desktop/ComputerOrganization/FullAdder/xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.12 secs
  
 --> Reading design: FullAdder1.prj
 
@@ -39,16 +39,16 @@ TABLE OF CONTENTS
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "C:\ComputerOrganization\FullAdder\FullAdder1.v" into library work
+Analyzing Verilog file "\\mac\home\Desktop\ComputerOrganization\FullAdder\FullAdder1.v" into library work
 Parsing module <FullAdder1>.
 
 
 Total REAL time to Xst completion: 3.00 secs
-Total CPU time to Xst completion: 2.97 secs
+Total CPU time to Xst completion: 3.02 secs
  
 --> 
 
-Total memory usage is 204440 kilobytes
+Total memory usage is 204248 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

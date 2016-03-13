@@ -1,5 +1,5 @@
-set -tmpdir "C:/ComputerOrganization/FullAdder/xst/projnav.tmp"
-set -xsthdpdir "C:/ComputerOrganization/FullAdder/xst"
+set -tmpdir "Y:/Desktop/ComputerOrganization/FullAdder/xst/projnav.tmp"
+set -xsthdpdir "Y:/Desktop/ComputerOrganization/FullAdder/xst"
 run -compileonly yes
 -p xc6slx16-3-csg324
 -top FullAdder1
