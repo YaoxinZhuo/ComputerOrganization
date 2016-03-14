@@ -20,11 +20,11 @@
 //////////////////////////////////////////////////////////////////////////////////
 module tongyongshumaguan(
 	 input CLK_S,                 //在顶层分频
-    input [31:0] Data,
-	 input Sel,
+    input [15:0] Data,
     output reg [3:0] AN,
     output reg [7:0] Seg
     );
+	// reg [19:0] Count;
 	 reg [3:0] led_data;
 	 reg [1:0] Bit_Sel;
 	 
@@ -33,39 +33,8 @@ module tongyongshumaguan(
 		Bit_Sel <= Bit_Sel + 1;
 	 end
 	 
-	 always@(Bit_Sel or Data or Sel)
+	 always@(Bit_Sel or Data)
 	 begin
-		if (Sel == 0)
-		begin
-		case(Bit_Sel)
-			2'b00: 
-			begin
-			AN = 4'b0111;
-			led_data = Data[31:28];
-			end
-		
-			2'b01: 
-			begin 
-			AN = 4'b1011;
-			led_data = Data[27:24];
-			end
-			
-			2'b10:
-			begin 
-			AN = 4'b1101;
-			led_data = Data[23:20];
-			end
-			
-			2'b11: 
-			begin 
-			AN = 4'b1110;
-			led_data = Data[19:16];
-			end
-		endcase
-		end
-		
-		else  //低四位
-		begin
 		case(Bit_Sel)
 			2'b00: 
 			begin
@@ -90,12 +59,11 @@ module tongyongshumaguan(
 			AN = 4'b1110;
 			led_data = Data[3:0];
 			end
+			
 		endcase
-		end
-		
 	 end
 	 
-	 always@(led_data or AN or Sel)
+	 always@(led_data or AN)
 	 begin
 		case(led_data)
 		4'b0000: Seg = 8'b00000011;
