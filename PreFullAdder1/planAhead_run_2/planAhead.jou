@@ -1,0 +1,57 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Mar 14 09:51:14 2016
+# Process ID: 4732
+# Log file: Y:/Desktop/ComputerOrganization/PreFullAdder1/planAhead_run_2/planAhead.log
+# Journal file: Y:/Desktop/ComputerOrganization/PreFullAdder1/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source Y:/Desktop/ComputerOrganization/PreFullAdder1/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin T11 [get_ports {A[3]}]
+endgroup
+startgroup
+set_property package_pin T5 [get_ports {A[3]}]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports {A[2]}]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports {A[1]}]
+endgroup
+startgroup
+set_property package_pin N8 [get_ports {A[0]}]
+endgroup
+startgroup
+set_property package_pin M8 [get_ports {B[3]}]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports {B[2]}]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports {B[1]}]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports {B[0]}]
+endgroup
+startgroup
+set_property package_pin V15 [get_ports {F[3]}]
+endgroup
+startgroup
+set_property package_pin U15 [get_ports {F[2]}]
+endgroup
+startgroup
+set_property package_pin V16 [get_ports {F[1]}]
+endgroup
+startgroup
+set_property package_pin U16 [get_ports {F[0]}]
+endgroup
+startgroup
+set_property package_pin D9 [get_ports CIN]
+endgroup
+startgroup
+set_property package_pin T11 [get_ports COUT]
+endgroup
+save_constraints

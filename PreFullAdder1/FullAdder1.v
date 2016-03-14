@@ -18,17 +18,17 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module FullAdder1(F,C0,C1,A,B
+module FullAdder1(F,CIN,COUT,A,B
     );
-	input C0,A,B;
-	output F,C1;
+	input CIN,A,B;
+	output F,COUT;
 	wire t1,t2,t3;
 	
-	xor(F,A,B,C0);
+	xor FF(F,A,B,CIN);
 	
-	and(t1,A,B);
-	xor(t2,A,B);
-	and(t3,t2,C0);
-	or(C1,t1,t3);
+	and TT1(t1,A,B);
+	xor TT2(t2,A,B);
+	and TT3(t3,t2,CIN);
+	or CC(COUT,t1,t3);
 
 endmodule

@@ -5,5 +5,29 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"\\mac\home\Desktop\ComputerOrganization\PreFullAdder1\PreFullAdder1.v" Line 36: Port <arg fmt="%s" index="1">COUT</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"\\mac\home\Desktop\ComputerOrganization\PreFullAdder1\PreFullAdder1.v" Line 37: Port <arg fmt="%s" index="1">COUT</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"\\mac\home\Desktop\ComputerOrganization\PreFullAdder1\PreFullAdder1.v" Line 38: Port <arg fmt="%s" index="1">COUT</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"\\mac\home\Desktop\ComputerOrganization\PreFullAdder1\PreFullAdder1.v" Line 39: Port <arg fmt="%s" index="1">COUT</arg> is not connected to this instance
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\mac\home\Desktop\ComputerOrganization\PreFullAdder1\PreFullAdder1.v</arg>&quot; line <arg fmt="%s" index="2">36</arg>: Output port &lt;<arg fmt="%s" index="3">COUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CcC1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\mac\home\Desktop\ComputerOrganization\PreFullAdder1\PreFullAdder1.v</arg>&quot; line <arg fmt="%s" index="2">37</arg>: Output port &lt;<arg fmt="%s" index="3">COUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CcC2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\mac\home\Desktop\ComputerOrganization\PreFullAdder1\PreFullAdder1.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">COUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CcC3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\mac\home\Desktop\ComputerOrganization\PreFullAdder1\PreFullAdder1.v</arg>&quot; line <arg fmt="%s" index="2">39</arg>: Output port &lt;<arg fmt="%s" index="3">COUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CcC4</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
 </messages>
 
