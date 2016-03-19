@@ -5,8 +5,5 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="HDLCompiler" num="1091" delta="new" >Save failed due to mkdir failure
-</msg>
-
 </messages>
 

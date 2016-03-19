@@ -1,18 +1,18 @@
 Release 14.7 - xst P.20131013 (nt)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to //Mac/Home/Desktop/ComputerOrganization/PreFullAdder1/xst/projnav.tmp
+--> Parameter TMPDIR set to C:/MultifunctionALU1/xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.14 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.12 secs
  
---> Parameter xsthdpdir set to //Mac/Home/Desktop/ComputerOrganization/PreFullAdder1/xst
+--> Parameter xsthdpdir set to C:/MultifunctionALU1/xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.14 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.12 secs
  
---> Reading design: PreFullAdder1.prj
+--> Reading design: tongyongshumaguan.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -39,16 +39,18 @@ TABLE OF CONTENTS
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "\\Mac\Home\Desktop\ComputerOrganization\PreFullAdder1\FullAdder1.v" into library work
-Parsing module <FullAdder1>.
-Analyzing Verilog file "\\Mac\Home\Desktop\ComputerOrganization\PreFullAdder1\PreFullAdder1.v" into library work
-Parsing module <PreFullAdder1>.
-ERROR:HDLCompiler:1091 - "Unknown" Line 0: Save failed due to mkdir failure
+Analyzing Verilog file "C:\MultifunctionALU1\UniversalDigital1.v" into library work
+Parsing module <tongyongshumaguan>.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.91 secs
+ 
 --> 
 
-Total memory usage is 204248 kilobytes
+Total memory usage is 207776 kilobytes
 
-Number of errors   :    1 (   0 filtered)
+Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

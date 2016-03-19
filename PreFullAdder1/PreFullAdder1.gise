@@ -57,7 +57,6 @@
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="PreFullAdder1_summary.xml"/>
     <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="PreFullAdder1_usage.xml"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="PreFullAdder1_xst.xrpt"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PreFullAdder1test_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="PreFullAdder1test_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="PreFullAdder1test_isim_beh.wdb"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PreFullAdder1test_stx_beh.prj"/>
@@ -68,10 +67,8 @@
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
-    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_2"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="prefulladder1.bgn" xil_pn:subbranch="FPGAConfiguration"/>
@@ -90,30 +87,28 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1457838459" xil_pn:in_ck="6132055890796800390" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1457838459">
+    <transform xil_pn:end_ts="1458209094" xil_pn:in_ck="6132055890796800390" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1458209094">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="FullAdder1.v"/>
       <outfile xil_pn:name="PreFullAdder1.v"/>
       <outfile xil_pn:name="PreFullAdder1test.v"/>
     </transform>
-    <transform xil_pn:end_ts="1457837225" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="7090300282204984098" xil_pn:start_ts="1457837225">
+    <transform xil_pn:end_ts="1458209076" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="7461407162691288002" xil_pn:start_ts="1458209076">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1457837225" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2861136031088783072" xil_pn:start_ts="1457837225">
+    <transform xil_pn:end_ts="1458209076" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="8495533866016200576" xil_pn:start_ts="1458209076">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1457837225" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-5464035833363217" xil_pn:start_ts="1457837225">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1457838463" xil_pn:in_ck="6132055890796800390" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1457838463">
+    <transform xil_pn:end_ts="1458209076" xil_pn:in_ck="6132055890796800390" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1458209076">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
@@ -125,30 +120,22 @@
       <outfile xil_pn:name="PreFullAdder1.v"/>
       <outfile xil_pn:name="PreFullAdder1test.v"/>
     </transform>
-    <transform xil_pn:end_ts="1457838465" xil_pn:in_ck="6132055890796800390" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7559293559570110851" xil_pn:start_ts="1457838463">
-      <status xil_pn:value="SuccessfullyRun"/>
+    <transform xil_pn:end_ts="1458209077" xil_pn:in_ck="6132055890796800390" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4173221670251547325" xil_pn:start_ts="1458209076">
+      <status xil_pn:value="FailedRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="PreFullAdder1test_beh.prj"/>
-      <outfile xil_pn:name="PreFullAdder1test_isim_beh.exe"/>
-      <outfile xil_pn:name="fuse.log"/>
-      <outfile xil_pn:name="isim"/>
-      <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
     <transform xil_pn:end_ts="1457838465" xil_pn:in_ck="-2666677612192517382" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8066682860779237562" xil_pn:start_ts="1457838465">
-      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="AbortedRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutOfDateForced"/>
       <outfile xil_pn:name="PreFullAdder1test_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
-      <outfile xil_pn:name="isim.log"/>
     </transform>
     <transform xil_pn:end_ts="1457837503" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1457837503">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -184,6 +171,7 @@
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
       <outfile xil_pn:name="PreFullAdder1.lso"/>
       <outfile xil_pn:name="PreFullAdder1.ngc"/>
       <outfile xil_pn:name="PreFullAdder1.ngr"/>
@@ -192,7 +180,6 @@
       <outfile xil_pn:name="PreFullAdder1.syr"/>
       <outfile xil_pn:name="PreFullAdder1.xst"/>
       <outfile xil_pn:name="PreFullAdder1_xst.xrpt"/>
-      <outfile xil_pn:name="PreFullAdder1test_beh.prj"/>
       <outfile xil_pn:name="PreFullAdder1test_stx_beh.prj"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
@@ -205,6 +192,7 @@
     <transform xil_pn:end_ts="1457923314" xil_pn:in_ck="-802107162622129208" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-7369715333104930576" xil_pn:start_ts="1457923309">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="PreFullAdder1.bld"/>
       <outfile xil_pn:name="PreFullAdder1.ngd"/>
       <outfile xil_pn:name="PreFullAdder1_ngdbuild.xrpt"/>
@@ -214,6 +202,9 @@
     <transform xil_pn:end_ts="1457923320" xil_pn:in_ck="2089241211309305321" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="1463976855095865663" xil_pn:start_ts="1457923314">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="PreFullAdder1.pcf"/>
       <outfile xil_pn:name="PreFullAdder1_map.map"/>
       <outfile xil_pn:name="PreFullAdder1_map.mrp"/>
@@ -227,6 +218,7 @@
     <transform xil_pn:end_ts="1457923333" xil_pn:in_ck="6111723516930518050" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-1178055513630676559" xil_pn:start_ts="1457923320">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="PreFullAdder1.ncd"/>
       <outfile xil_pn:name="PreFullAdder1.pad"/>
       <outfile xil_pn:name="PreFullAdder1.par"/>
@@ -241,6 +233,7 @@
     <transform xil_pn:end_ts="1457923345" xil_pn:in_ck="-3643267682952756562" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="5341574683187206424" xil_pn:start_ts="1457923333">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="PreFullAdder1.ut"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="prefulladder1.bgn"/>
@@ -253,6 +246,7 @@
     <transform xil_pn:end_ts="1457923333" xil_pn:in_ck="7812881400260531429" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1457923328">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="PreFullAdder1.twr"/>
       <outfile xil_pn:name="PreFullAdder1.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>

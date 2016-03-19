@@ -1,8 +1,8 @@
-set -tmpdir "//Mac/Home/Desktop/ComputerOrganization/PreFullAdder1/xst/projnav.tmp"
-set -xsthdpdir "//Mac/Home/Desktop/ComputerOrganization/PreFullAdder1/xst"
+set -tmpdir "C:/MultifunctionALU1/xst/projnav.tmp"
+set -xsthdpdir "C:/MultifunctionALU1/xst"
 run -compileonly yes
 -p xc6slx16-3-csg324
--top PreFullAdder1
+-top TopALU1
 -opt_mode Speed
 -opt_level 1
 -power NO
@@ -47,4 +47,4 @@ run -compileonly yes
 -iob Auto
 -equivalent_register_removal YES
 -slice_utilization_ratio_maxmargin 5
--ifn PreFullAdder1.prj
+-ifn TopALU1.prj

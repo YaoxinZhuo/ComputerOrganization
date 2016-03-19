@@ -1,0 +1,4 @@
+verilog work "UniversalDigital1.v"
+verilog work "top1.v"
+verilog work "TopALU1.v"
+verilog work "TopALU1test1.v"

@@ -52,13 +52,6 @@ module PreFullAdder1test;
 		#100;
         
 		// Add stimulus here
-		A=4'b0001;
-		B=4'b1010;
-		
-		#100;
-		A=4'b0001;
-		B=4'b1010;
-		CIN=1;
 
 	end
       
