@@ -23,3 +23,15 @@ map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -re
 par -w -intstyle ise -ol high -mt off TopALU1test1_map.ncd TopALU1test1.ncd TopALU1test1.pcf 
 trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopALU1test1.twx TopALU1test1.ncd -o TopALU1test1.twr TopALU1test1.pcf -ucf TopALU1test1.ucf 
 bitgen -intstyle ise -f TopALU1test1.ut TopALU1test1.ncd 
+xst -intstyle ise -ifn "C:/MultifunctionALU1/TopALU1test1.xst" -ofn "C:/MultifunctionALU1/TopALU1test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopALU1test1.ucf -p xc6slx16-csg324-3 TopALU1test1.ngc TopALU1test1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopALU1test1_map.ncd TopALU1test1.ngd TopALU1test1.pcf 
+par -w -intstyle ise -ol high -mt off TopALU1test1_map.ncd TopALU1test1.ncd TopALU1test1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopALU1test1.twx TopALU1test1.ncd -o TopALU1test1.twr TopALU1test1.pcf -ucf TopALU1test1.ucf 
+bitgen -intstyle ise -f TopALU1test1.ut TopALU1test1.ncd 
+xst -intstyle ise -ifn "C:/MultifunctionALU1/TopALU1test1.xst" -ofn "C:/MultifunctionALU1/TopALU1test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopALU1test1.ucf -p xc6slx16-csg324-3 TopALU1test1.ngc TopALU1test1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopALU1test1_map.ncd TopALU1test1.ngd TopALU1test1.pcf 
+par -w -intstyle ise -ol high -mt off TopALU1test1_map.ncd TopALU1test1.ncd TopALU1test1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopALU1test1.twx TopALU1test1.ncd -o TopALU1test1.twr TopALU1test1.pcf -ucf TopALU1test1.ucf 
+bitgen -intstyle ise -f TopALU1test1.ut TopALU1test1.ncd 

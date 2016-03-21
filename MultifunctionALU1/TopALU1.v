@@ -32,13 +32,14 @@ module TopALU1(input [31:0] AA, input [31:0] BB, input [2:0] ALU_OP, output reg[
 		begin
 			A = AA;
 			B = BB;
+			C32 = 0;
 			case(ALU_OP)
 				3'b000:begin F = A&B;end
 				3'b001:begin F = A | B;end
 				3'b010:begin F = A ^ B;end
 				3'b011:begin F = A ~^ B;end
-				3'b100:begin F = A + B;end
-				3'b101:begin F = A - B;end
+				3'b100:begin {C32,F} = A + B;end
+				3'b101:begin {C32,F} = A - B;end
 				3'b110:begin
 					if(A < B)
 						begin
@@ -67,12 +68,12 @@ module TopALU1(input [31:0] AA, input [31:0] BB, input [2:0] ALU_OP, output reg[
 				end
 			if((A[31]+B[31])>1)
 				begin
-					C32=1;
+					//C32=1;
 					OF = A[31]^B[31]^F[31]^C32;
 				end
 			else
 				begin
-					C32=0;
+					//C32=0;
 					OF = A[31]^B[31]^F[31]^C32;
 				end
 		end

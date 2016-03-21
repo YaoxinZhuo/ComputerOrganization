@@ -37,85 +37,85 @@ Clock to Setup on destination clock CLK
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-CLK            |    1.743|         |         |         |
+CLK            |    1.744|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Pad to Pad
 ---------------+---------------+---------+
 Source Pad     |Destination Pad|  Delay  |
 ---------------+---------------+---------+
-GNOP<0>        |OF             |   10.748|
-GNOP<0>        |SEG<1>         |   13.229|
-GNOP<0>        |SEG<2>         |   13.028|
-GNOP<0>        |SEG<3>         |   13.299|
-GNOP<0>        |SEG<4>         |   13.230|
-GNOP<0>        |SEG<5>         |   13.089|
-GNOP<0>        |SEG<6>         |   13.240|
-GNOP<0>        |SEG<7>         |   13.466|
-GNOP<0>        |ZF             |   13.478|
-GNOP<1>        |OF             |   10.381|
-GNOP<1>        |SEG<1>         |   13.403|
-GNOP<1>        |SEG<2>         |   13.202|
-GNOP<1>        |SEG<3>         |   13.473|
-GNOP<1>        |SEG<4>         |   13.404|
-GNOP<1>        |SEG<5>         |   13.263|
-GNOP<1>        |SEG<6>         |   13.414|
-GNOP<1>        |SEG<7>         |   13.640|
-GNOP<1>        |ZF             |   13.652|
-GNOP<2>        |OF             |   10.669|
-GNOP<2>        |SEG<1>         |   13.691|
-GNOP<2>        |SEG<2>         |   13.490|
-GNOP<2>        |SEG<3>         |   13.761|
-GNOP<2>        |SEG<4>         |   13.692|
-GNOP<2>        |SEG<5>         |   13.551|
-GNOP<2>        |SEG<6>         |   13.702|
-GNOP<2>        |SEG<7>         |   13.928|
-GNOP<2>        |ZF             |   13.940|
-SEL            |SEG<1>         |   10.043|
-SEL            |SEG<2>         |    9.842|
-SEL            |SEG<3>         |   10.001|
-SEL            |SEG<4>         |   10.044|
-SEL            |SEG<5>         |    9.903|
-SEL            |SEG<6>         |   10.054|
-SEL            |SEG<7>         |   10.280|
-SZOP<0>        |OF             |   13.506|
-SZOP<0>        |SEG<1>         |   15.752|
-SZOP<0>        |SEG<2>         |   15.610|
-SZOP<0>        |SEG<3>         |   15.846|
-SZOP<0>        |SEG<4>         |   15.753|
-SZOP<0>        |SEG<5>         |   15.671|
-SZOP<0>        |SEG<6>         |   15.763|
-SZOP<0>        |SEG<7>         |   15.989|
-SZOP<0>        |ZF             |   15.675|
-SZOP<1>        |OF             |   13.662|
-SZOP<1>        |SEG<1>         |   15.945|
-SZOP<1>        |SEG<2>         |   15.744|
-SZOP<1>        |SEG<3>         |   16.039|
-SZOP<1>        |SEG<4>         |   15.946|
-SZOP<1>        |SEG<5>         |   15.805|
-SZOP<1>        |SEG<6>         |   15.956|
-SZOP<1>        |SEG<7>         |   16.182|
-SZOP<1>        |ZF             |   15.868|
-SZOP<2>        |OF             |   13.753|
-SZOP<2>        |SEG<1>         |   16.036|
-SZOP<2>        |SEG<2>         |   15.835|
-SZOP<2>        |SEG<3>         |   16.130|
-SZOP<2>        |SEG<4>         |   16.037|
-SZOP<2>        |SEG<5>         |   15.896|
-SZOP<2>        |SEG<6>         |   16.047|
-SZOP<2>        |SEG<7>         |   16.273|
-SZOP<2>        |ZF             |   15.959|
+GNOP<0>        |OF             |   12.141|
+GNOP<0>        |SEG<1>         |   13.863|
+GNOP<0>        |SEG<2>         |   13.690|
+GNOP<0>        |SEG<3>         |   13.740|
+GNOP<0>        |SEG<4>         |   13.635|
+GNOP<0>        |SEG<5>         |   13.926|
+GNOP<0>        |SEG<6>         |   13.590|
+GNOP<0>        |SEG<7>         |   13.501|
+GNOP<0>        |ZF             |   15.070|
+GNOP<1>        |OF             |   12.963|
+GNOP<1>        |SEG<1>         |   14.492|
+GNOP<1>        |SEG<2>         |   14.319|
+GNOP<1>        |SEG<3>         |   14.369|
+GNOP<1>        |SEG<4>         |   14.264|
+GNOP<1>        |SEG<5>         |   14.555|
+GNOP<1>        |SEG<6>         |   14.219|
+GNOP<1>        |SEG<7>         |   14.130|
+GNOP<1>        |ZF             |   15.511|
+GNOP<2>        |OF             |   12.664|
+GNOP<2>        |SEG<1>         |   14.193|
+GNOP<2>        |SEG<2>         |   14.020|
+GNOP<2>        |SEG<3>         |   14.070|
+GNOP<2>        |SEG<4>         |   13.965|
+GNOP<2>        |SEG<5>         |   14.256|
+GNOP<2>        |SEG<6>         |   13.920|
+GNOP<2>        |SEG<7>         |   13.831|
+GNOP<2>        |ZF             |   15.265|
+SEL            |SEG<1>         |    9.933|
+SEL            |SEG<2>         |    9.737|
+SEL            |SEG<3>         |    9.517|
+SEL            |SEG<4>         |    9.897|
+SEL            |SEG<5>         |    9.973|
+SEL            |SEG<6>         |    9.660|
+SEL            |SEG<7>         |    9.763|
+SZOP<0>        |OF             |   16.824|
+SZOP<0>        |SEG<1>         |   17.990|
+SZOP<0>        |SEG<2>         |   17.817|
+SZOP<0>        |SEG<3>         |   17.867|
+SZOP<0>        |SEG<4>         |   17.809|
+SZOP<0>        |SEG<5>         |   18.053|
+SZOP<0>        |SEG<6>         |   17.717|
+SZOP<0>        |SEG<7>         |   17.675|
+SZOP<0>        |ZF             |   19.390|
+SZOP<1>        |OF             |   17.071|
+SZOP<1>        |SEG<1>         |   18.241|
+SZOP<1>        |SEG<2>         |   18.068|
+SZOP<1>        |SEG<3>         |   18.118|
+SZOP<1>        |SEG<4>         |   18.013|
+SZOP<1>        |SEG<5>         |   18.304|
+SZOP<1>        |SEG<6>         |   17.968|
+SZOP<1>        |SEG<7>         |   17.879|
+SZOP<1>        |ZF             |   19.246|
+SZOP<2>        |OF             |   16.718|
+SZOP<2>        |SEG<1>         |   18.033|
+SZOP<2>        |SEG<2>         |   17.837|
+SZOP<2>        |SEG<3>         |   17.765|
+SZOP<2>        |SEG<4>         |   17.997|
+SZOP<2>        |SEG<5>         |   18.073|
+SZOP<2>        |SEG<6>         |   17.760|
+SZOP<2>        |SEG<7>         |   17.863|
+SZOP<2>        |ZF             |   18.915|
 ---------------+---------------+---------+
 
 
-Analysis completed Mon Mar 21 10:43:36 2016 
+Analysis completed Mon Mar 21 11:45:19 2016 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 172 MB
+Peak Memory Usage: 173 MB
 
 
 

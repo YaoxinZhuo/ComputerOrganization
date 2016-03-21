@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Reading design: TopALU1test1.prj
 
@@ -147,17 +147,15 @@ Unit <TopALU1test1> synthesized.
 
 Synthesizing Unit <TopALU1>.
     Related source file is "C:\MultifunctionALU1\TopALU1.v".
-    Found 32-bit subtractor for signal <AA[31]_BB[31]_sub_6_OUT> created at line 41.
-    Found 32-bit adder for signal <AA[31]_BB[31]_add_4_OUT> created at line 40.
-    Found 2-bit adder for signal <n0033> created at line 68.
-    Found 32-bit shifter logical left for signal <BB[31]_AA[31]_shift_left_8_OUT> created at line 53
-    Found 32-bit 8-to-1 multiplexer for signal <F> created at line 35.
-    Found 32-bit comparator greater for signal <AA[31]_BB[31]_LessThan_7_o> created at line 43
-    Found 2-bit comparator greater for signal <C32> created at line 68
+    Found 33-bit subtractor for signal <GND_2_o_GND_2_o_sub_6_OUT> created at line 42.
+    Found 33-bit adder for signal <n0034> created at line 41.
+    Found 32-bit shifter logical left for signal <BB[31]_AA[31]_shift_left_8_OUT> created at line 54
+    Found 32-bit 8-to-1 multiplexer for signal <F> created at line 36.
+    Found 32-bit comparator greater for signal <AA[31]_BB[31]_LessThan_7_o> created at line 44
     Summary:
 	inferred   2 Adder/Subtractor(s).
-	inferred   2 Comparator(s).
-	inferred   8 Multiplexer(s).
+	inferred   1 Comparator(s).
+	inferred   5 Multiplexer(s).
 	inferred   1 Combinational logic shifter(s).
 Unit <TopALU1> synthesized.
 
@@ -201,28 +199,28 @@ Macro Statistics
  4x4-bit single-port Read Only RAM                     : 1
  8x64-bit single-port Read Only RAM                    : 1
 # Adders/Subtractors                                   : 4
- 2-bit adder                                           : 2
+ 2-bit adder                                           : 1
  21-bit adder                                          : 1
- 32-bit addsub                                         : 1
+ 33-bit adder                                          : 1
+ 33-bit subtractor                                     : 1
 # Registers                                            : 3
  1-bit register                                        : 1
  2-bit register                                        : 1
  21-bit register                                       : 1
-# Comparators                                          : 2
- 2-bit comparator greater                              : 1
+# Comparators                                          : 1
  32-bit comparator greater                             : 1
-# Multiplexers                                         : 20
- 1-bit 2-to-1 multiplexer                              : 5
+# Multiplexers                                         : 17
+ 1-bit 2-to-1 multiplexer                              : 7
  1-bit 4-to-1 multiplexer                              : 8
- 32-bit 2-to-1 multiplexer                             : 7
+ 32-bit 2-to-1 multiplexer                             : 1
+ 32-bit 8-to-1 multiplexer                             : 1
 # Logic shifters                                       : 1
  32-bit shifter logical left                           : 1
-# Xors                                                 : 3
- 1-bit xor2                                            : 2
+# Xors                                                 : 2
+ 1-bit xor4                                            : 1
  32-bit xor2                                           : 1
 
 =========================================================================
-INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
 
 =========================================================================
 *                       Advanced HDL Synthesis                          *
@@ -282,24 +280,24 @@ Macro Statistics
  4x4-bit single-port distributed Read Only RAM         : 1
  8x64-bit single-port distributed Read Only RAM        : 1
 # Adders/Subtractors                                   : 2
- 2-bit adder                                           : 1
- 32-bit addsub                                         : 1
+ 33-bit adder                                          : 1
+ 33-bit subtractor                                     : 1
 # Counters                                             : 2
  2-bit up counter                                      : 1
  21-bit up counter                                     : 1
 # Registers                                            : 1
  Flip-Flops                                            : 1
-# Comparators                                          : 2
- 2-bit comparator greater                              : 1
+# Comparators                                          : 1
  32-bit comparator greater                             : 1
-# Multiplexers                                         : 19
- 1-bit 2-to-1 multiplexer                              : 4
+# Multiplexers                                         : 17
+ 1-bit 2-to-1 multiplexer                              : 7
  1-bit 4-to-1 multiplexer                              : 8
- 32-bit 2-to-1 multiplexer                             : 7
+ 32-bit 2-to-1 multiplexer                             : 1
+ 32-bit 8-to-1 multiplexer                             : 1
 # Logic shifters                                       : 1
  32-bit shifter logical left                           : 1
-# Xors                                                 : 3
- 1-bit xor2                                            : 2
+# Xors                                                 : 2
+ 1-bit xor4                                            : 1
  32-bit xor2                                           : 1
 
 =========================================================================
@@ -319,7 +317,7 @@ Optimizing unit <tongyongshumaguan> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block TopALU1test1, actual ratio is 3.
+Found area constraint ratio of 100 (+ 5) on block TopALU1test1, actual ratio is 4.
 
 Final Macro Processing ...
 
@@ -351,19 +349,19 @@ Top Level Output File Name         : TopALU1test1.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 319
+# BELS                             : 432
 #      GND                         : 1
 #      INV                         : 4
 #      LUT1                        : 17
-#      LUT2                        : 16
-#      LUT3                        : 31
-#      LUT4                        : 47
-#      LUT5                        : 28
-#      LUT6                        : 57
-#      MUXCY                       : 63
-#      MUXF7                       : 4
+#      LUT2                        : 37
+#      LUT3                        : 68
+#      LUT4                        : 22
+#      LUT5                        : 31
+#      LUT6                        : 67
+#      MUXCY                       : 96
+#      MUXF7                       : 5
 #      VCC                         : 1
-#      XORCY                       : 50
+#      XORCY                       : 83
 # FlipFlops/Latches                : 21
 #      FD                          : 2
 #      FDE                         : 1
@@ -382,14 +380,14 @@ Selected Device : 6slx16csg324-3
 
 Slice Logic Utilization: 
  Number of Slice Registers:              21  out of  18224     0%  
- Number of Slice LUTs:                  200  out of   9112     2%  
-    Number used as Logic:               200  out of   9112     2%  
+ Number of Slice LUTs:                  246  out of   9112     2%  
+    Number used as Logic:               246  out of   9112     2%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    200
-   Number with an unused Flip Flop:     179  out of    200    89%  
-   Number with an unused LUT:             0  out of    200     0%  
-   Number of fully used LUT-FF pairs:    21  out of    200    10%  
+ Number of LUT Flip Flop pairs used:    246
+   Number with an unused Flip Flop:     225  out of    246    91%  
+   Number with an unused LUT:             0  out of    246     0%  
+   Number of fully used LUT-FF pairs:    21  out of    246     8%  
    Number of unique control sets:         3
 
 IO Utilization: 
@@ -436,7 +434,7 @@ Speed Grade: -3
    Minimum period: 2.291ns (Maximum Frequency: 436.500MHz)
    Minimum input arrival time before clock: No path found
    Maximum output required time after clock: 6.466ns
-   Maximum combinational path delay: 13.944ns
+   Maximum combinational path delay: 14.510ns
 
 Timing Details:
 ---------------
@@ -528,43 +526,29 @@ Offset:              6.466ns (Levels of Logic = 4)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 36856 / 9
+  Total number of paths / destination ports: 57119 / 9
 -------------------------------------------------------------------------
-Delay:               13.944ns (Levels of Logic = 24)
-  Source:            SZOP<1> (PAD)
-  Destination:       SEG<5> (PAD)
+Delay:               14.510ns (Levels of Logic = 10)
+  Source:            SZOP<0> (PAD)
+  Destination:       ZF (PAD)
 
-  Data Path: SZOP<1> to SEG<5>
+  Data Path: SZOP<0> to ZF
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            64   1.222   1.868  SZOP_1_IBUF (SZOP_1_IBUF)
-     LUT3:I0->O           37   0.205   1.591  Mram__n0016131 (Mram__n001613)
-     LUT4:I1->O            1   0.205   0.000  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_lut<1> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_lut<1>)
-     MUXCY:S->O            1   0.172   0.000  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<1> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<1>)
-     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<2> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<2>)
-     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<3> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<3>)
-     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<4> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<4>)
-     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<5> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<5>)
-     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<6> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<6>)
-     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<7> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<7>)
-     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<8> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<8>)
-     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<9> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<9>)
-     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<10> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<10>)
-     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<11> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<11>)
-     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<12> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<12>)
-     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<13> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<13>)
-     MUXCY:CI->O           1   0.213   0.684  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<14> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<14>)
-     LUT5:I3->O            1   0.203   0.808  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<15> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<15>)
-     LUT6:I3->O            1   0.205   0.580  TopAlu1/Mmux_F714 (TopAlu1/Mmux_F711)
-     LUT6:I5->O            2   0.205   0.845  TopAlu1/Mmux_F715 (TopAlu1/Mmux_F7_split<0>)
-     LUT6:I3->O            1   0.205   0.000  TopAlu1/Top1/tongyongshumaguan/Mmux_led_data<0>_4 (TopAlu1/Top1/tongyongshumaguan/Mmux_led_data<0>_4)
-     MUXF7:I0->O           7   0.131   1.021  TopAlu1/Top1/tongyongshumaguan/Mmux_led_data<0>_2_f7 (TopAlu1/Top1/tongyongshumaguan/led_data<0>)
-     LUT4:I0->O            1   0.203   0.579  TopAlu1/Top1/tongyongshumaguan/Seg<2>1 (SEG_2_OBUF)
-     OBUF:I->O                 2.571          SEG_2_OBUF (SEG<2>)
+     IBUF:I->O            95   1.222   2.073  SZOP_0_IBUF (SZOP_0_IBUF)
+     LUT3:I0->O           31   0.205   1.525  Mram__n0016101 (Mram__n001610)
+     LUT6:I2->O            3   0.203   1.015  TopAlu1/Mmux_F2721 (TopAlu1/Mmux_F272)
+     LUT6:I0->O            1   0.203   0.580  TopAlu1/Mmux_F282 (TopAlu1/Mmux_F281)
+     LUT6:I5->O            2   0.205   0.981  TopAlu1/Mmux_F283 (TopAlu1/F<6>)
+     LUT6:I0->O            1   0.203   0.944  TopAlu1/ZF<31>3 (TopAlu1/ZF<31>2)
+     LUT6:I0->O            1   0.203   0.808  TopAlu1/ZF<31>4 (TopAlu1/ZF<31>3)
+     LUT6:I3->O            1   0.205   0.580  TopAlu1/ZF<31>8_SW0 (N8)
+     LUT6:I5->O            1   0.205   0.579  TopAlu1/ZF<31>8 (ZF_OBUF)
+     OBUF:I->O                 2.571          ZF_OBUF (ZF)
     ----------------------------------------
-    Total                     13.944ns (5.968ns logic, 7.976ns route)
-                                       (42.8% logic, 57.2% route)
+    Total                     14.510ns (5.425ns logic, 9.085ns route)
+                                       (37.4% logic, 62.6% route)
 
 =========================================================================
 
@@ -590,14 +574,14 @@ TopAlu1/Top1/CLK_OUT_L|    2.291|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 5.78 secs
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.72 secs
  
 --> 
 
-Total memory usage is 248592 kilobytes
+Total memory usage is 249616 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   10 (   0 filtered)
-Number of infos    :    6 (   0 filtered)
+Number of infos    :    5 (   0 filtered)
 
