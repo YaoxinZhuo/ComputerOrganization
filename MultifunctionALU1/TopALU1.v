@@ -18,12 +18,13 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module TopALU1(input [31:0] AA, input [31:0] BB, input [2:0] ALU_OP, output reg [31:0] F, output reg ZF,output reg OF, 
-					input CLK,input Sel,output An,output Seg 
+module TopALU1(input [31:0] AA, input [31:0] BB, input [2:0] ALU_OP, output reg[31:0] F, output reg ZF,output reg OF, 
+					input CLK,input Sel,output [3:0] An,output [7:0] Seg 
     );
 	 reg [31:0] A;
 	 reg [31:0] B;
 	 reg C32;
+	 
 	//CLK接刷新频率，seg控制显示前四位还是后四位
 	Top Top1(.CLK(CLK),.Data(F),.Sel(Sel),.AN(An),.Seg(Seg));
    //tongyongshumaguan tongyongshumaguan(.CLK_S(CLK_OUT_L),.Data(Data),.AN(AN),.Seg(Seg),.Sel(Sel));
@@ -49,11 +50,7 @@ module TopALU1(input [31:0] AA, input [31:0] BB, input [2:0] ALU_OP, output reg 
 						end
 				end
 				3'b111:begin
-					while(A!=32'h0000_0000)
-						begin
-							B = B<<1;
-							A = A-1'b1;
-						end
+							F = B<<A;
 				end
 				default:
 				begin

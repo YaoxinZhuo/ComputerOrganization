@@ -5,5 +5,53 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\MultifunctionALU1\TopALU1test1.v" Line 24: Redeclaration of ansi port <arg fmt="%s" index="1">OF</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\MultifunctionALU1\TopALU1test1.v" Line 25: Redeclaration of ansi port <arg fmt="%s" index="1">ZF</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\MultifunctionALU1\TopALU1test1.v" Line 26: Redeclaration of ansi port <arg fmt="%s" index="1">AN</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\MultifunctionALU1\TopALU1test1.v" Line 27: Redeclaration of ansi port <arg fmt="%s" index="1">SEG</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\MultifunctionALU1\top1.v" Line 43: Result of <arg fmt="%d" index="1">22</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">21</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\MultifunctionALU1\UniversalDigital1.v" Line 33: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\MultifunctionALU1\TopALU1test1.v" Line 32: Assignment to <arg fmt="%s" index="1">FF</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\MultifunctionALU1\TopALU1test1.v</arg>&quot; line <arg fmt="%s" index="2">32</arg>: Output port &lt;<arg fmt="%s" index="3">F</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">TopAlu1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n0016</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_AN</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Seg</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Top1/count_l_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopALU1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Top1/count_l_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopALU1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Top1/count_l_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopALU1</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
 </messages>
 

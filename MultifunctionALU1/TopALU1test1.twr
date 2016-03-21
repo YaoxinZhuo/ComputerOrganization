@@ -1,0 +1,121 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml TopALU1test1.twx TopALU1test1.ncd -o TopALU1test1.twr
+TopALU1test1.pcf -ucf TopALU1test1.ucf
+
+Design file:              TopALU1test1.ncd
+Physical constraint file: TopALU1test1.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    1.743|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+GNOP<0>        |OF             |   10.748|
+GNOP<0>        |SEG<1>         |   13.229|
+GNOP<0>        |SEG<2>         |   13.028|
+GNOP<0>        |SEG<3>         |   13.299|
+GNOP<0>        |SEG<4>         |   13.230|
+GNOP<0>        |SEG<5>         |   13.089|
+GNOP<0>        |SEG<6>         |   13.240|
+GNOP<0>        |SEG<7>         |   13.466|
+GNOP<0>        |ZF             |   13.478|
+GNOP<1>        |OF             |   10.381|
+GNOP<1>        |SEG<1>         |   13.403|
+GNOP<1>        |SEG<2>         |   13.202|
+GNOP<1>        |SEG<3>         |   13.473|
+GNOP<1>        |SEG<4>         |   13.404|
+GNOP<1>        |SEG<5>         |   13.263|
+GNOP<1>        |SEG<6>         |   13.414|
+GNOP<1>        |SEG<7>         |   13.640|
+GNOP<1>        |ZF             |   13.652|
+GNOP<2>        |OF             |   10.669|
+GNOP<2>        |SEG<1>         |   13.691|
+GNOP<2>        |SEG<2>         |   13.490|
+GNOP<2>        |SEG<3>         |   13.761|
+GNOP<2>        |SEG<4>         |   13.692|
+GNOP<2>        |SEG<5>         |   13.551|
+GNOP<2>        |SEG<6>         |   13.702|
+GNOP<2>        |SEG<7>         |   13.928|
+GNOP<2>        |ZF             |   13.940|
+SEL            |SEG<1>         |   10.043|
+SEL            |SEG<2>         |    9.842|
+SEL            |SEG<3>         |   10.001|
+SEL            |SEG<4>         |   10.044|
+SEL            |SEG<5>         |    9.903|
+SEL            |SEG<6>         |   10.054|
+SEL            |SEG<7>         |   10.280|
+SZOP<0>        |OF             |   13.506|
+SZOP<0>        |SEG<1>         |   15.752|
+SZOP<0>        |SEG<2>         |   15.610|
+SZOP<0>        |SEG<3>         |   15.846|
+SZOP<0>        |SEG<4>         |   15.753|
+SZOP<0>        |SEG<5>         |   15.671|
+SZOP<0>        |SEG<6>         |   15.763|
+SZOP<0>        |SEG<7>         |   15.989|
+SZOP<0>        |ZF             |   15.675|
+SZOP<1>        |OF             |   13.662|
+SZOP<1>        |SEG<1>         |   15.945|
+SZOP<1>        |SEG<2>         |   15.744|
+SZOP<1>        |SEG<3>         |   16.039|
+SZOP<1>        |SEG<4>         |   15.946|
+SZOP<1>        |SEG<5>         |   15.805|
+SZOP<1>        |SEG<6>         |   15.956|
+SZOP<1>        |SEG<7>         |   16.182|
+SZOP<1>        |ZF             |   15.868|
+SZOP<2>        |OF             |   13.753|
+SZOP<2>        |SEG<1>         |   16.036|
+SZOP<2>        |SEG<2>         |   15.835|
+SZOP<2>        |SEG<3>         |   16.130|
+SZOP<2>        |SEG<4>         |   16.037|
+SZOP<2>        |SEG<5>         |   15.896|
+SZOP<2>        |SEG<6>         |   16.047|
+SZOP<2>        |SEG<7>         |   16.273|
+SZOP<2>        |ZF             |   15.959|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Mar 21 10:43:36 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 172 MB
+
+
+

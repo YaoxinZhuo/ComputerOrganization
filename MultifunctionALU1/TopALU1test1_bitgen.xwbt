@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\MultifunctionALU1\TopALU1test1.ncd
+OUTFILE=C:\MultifunctionALU1\TopALU1test1.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\MultifunctionALU1
+LICENSE=WebPack
+USER_INFO=__0_0_0

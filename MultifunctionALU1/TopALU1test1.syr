@@ -1,0 +1,603 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: TopALU1test1.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "TopALU1test1.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "TopALU1test1"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : TopALU1test1
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\MultifunctionALU1\UniversalDigital1.v" into library work
+Parsing module <tongyongshumaguan>.
+Analyzing Verilog file "C:\MultifunctionALU1\top1.v" into library work
+Parsing module <Top>.
+Analyzing Verilog file "C:\MultifunctionALU1\TopALU1.v" into library work
+Parsing module <TopALU1>.
+Analyzing Verilog file "C:\MultifunctionALU1\TopALU1test1.v" into library work
+Parsing module <TopALU1test1>.
+WARNING:HDLCompiler:751 - "C:\MultifunctionALU1\TopALU1test1.v" Line 24: Redeclaration of ansi port OF is not allowed
+WARNING:HDLCompiler:751 - "C:\MultifunctionALU1\TopALU1test1.v" Line 25: Redeclaration of ansi port ZF is not allowed
+WARNING:HDLCompiler:751 - "C:\MultifunctionALU1\TopALU1test1.v" Line 26: Redeclaration of ansi port AN is not allowed
+WARNING:HDLCompiler:751 - "C:\MultifunctionALU1\TopALU1test1.v" Line 27: Redeclaration of ansi port SEG is not allowed
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <TopALU1test1>.
+
+Elaborating module <TopALU1>.
+
+Elaborating module <Top>.
+WARNING:HDLCompiler:413 - "C:\MultifunctionALU1\top1.v" Line 43: Result of 22-bit expression is truncated to fit in 21-bit target.
+
+Elaborating module <tongyongshumaguan>.
+WARNING:HDLCompiler:413 - "C:\MultifunctionALU1\UniversalDigital1.v" Line 33: Result of 3-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:1127 - "C:\MultifunctionALU1\TopALU1test1.v" Line 32: Assignment to FF ignored, since the identifier is never used
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <TopALU1test1>.
+    Related source file is "C:\MultifunctionALU1\TopALU1test1.v".
+INFO:Xst:3210 - "C:\MultifunctionALU1\TopALU1test1.v" line 32: Output port <F> of the instance <TopAlu1> is unconnected or connected to loadless signal.
+    Found 8x64-bit Read Only RAM for signal <_n0016>
+    Summary:
+	inferred   1 RAM(s).
+Unit <TopALU1test1> synthesized.
+
+Synthesizing Unit <TopALU1>.
+    Related source file is "C:\MultifunctionALU1\TopALU1.v".
+    Found 32-bit subtractor for signal <AA[31]_BB[31]_sub_6_OUT> created at line 41.
+    Found 32-bit adder for signal <AA[31]_BB[31]_add_4_OUT> created at line 40.
+    Found 2-bit adder for signal <n0033> created at line 68.
+    Found 32-bit shifter logical left for signal <BB[31]_AA[31]_shift_left_8_OUT> created at line 53
+    Found 32-bit 8-to-1 multiplexer for signal <F> created at line 35.
+    Found 32-bit comparator greater for signal <AA[31]_BB[31]_LessThan_7_o> created at line 43
+    Found 2-bit comparator greater for signal <C32> created at line 68
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+	inferred   8 Multiplexer(s).
+	inferred   1 Combinational logic shifter(s).
+Unit <TopALU1> synthesized.
+
+Synthesizing Unit <Top>.
+    Related source file is "C:\MultifunctionALU1\top1.v".
+    Found 1-bit register for signal <CLK_OUT_L>.
+    Found 21-bit register for signal <count_l>.
+    Found 21-bit adder for signal <count_l[20]_GND_3_o_add_2_OUT> created at line 43.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  22 D-type flip-flop(s).
+Unit <Top> synthesized.
+
+Synthesizing Unit <tongyongshumaguan>.
+    Related source file is "C:\MultifunctionALU1\UniversalDigital1.v".
+    Found 2-bit register for signal <Bit_Sel>.
+    Found 2-bit adder for signal <Bit_Sel[1]_GND_4_o_add_1_OUT> created at line 33.
+    Found 4x4-bit Read Only RAM for signal <AN>
+    Found 16x8-bit Read Only RAM for signal <Seg>
+    Found 1-bit 4-to-1 multiplexer for signal <Bit_Sel[1]_Data[19]_wide_mux_5_OUT[3]> created at line 40.
+    Found 1-bit 4-to-1 multiplexer for signal <Bit_Sel[1]_Data[19]_wide_mux_5_OUT[2]> created at line 40.
+    Found 1-bit 4-to-1 multiplexer for signal <Bit_Sel[1]_Data[19]_wide_mux_5_OUT[1]> created at line 40.
+    Found 1-bit 4-to-1 multiplexer for signal <Bit_Sel[1]_Data[19]_wide_mux_5_OUT[0]> created at line 40.
+    Found 1-bit 4-to-1 multiplexer for signal <Bit_Sel[1]_Data[3]_wide_mux_7_OUT[3]> created at line 69.
+    Found 1-bit 4-to-1 multiplexer for signal <Bit_Sel[1]_Data[3]_wide_mux_7_OUT[2]> created at line 69.
+    Found 1-bit 4-to-1 multiplexer for signal <Bit_Sel[1]_Data[3]_wide_mux_7_OUT[1]> created at line 69.
+    Found 1-bit 4-to-1 multiplexer for signal <Bit_Sel[1]_Data[3]_wide_mux_7_OUT[0]> created at line 69.
+    Summary:
+	inferred   2 RAM(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 D-type flip-flop(s).
+	inferred  12 Multiplexer(s).
+Unit <tongyongshumaguan> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 3
+ 16x8-bit single-port Read Only RAM                    : 1
+ 4x4-bit single-port Read Only RAM                     : 1
+ 8x64-bit single-port Read Only RAM                    : 1
+# Adders/Subtractors                                   : 4
+ 2-bit adder                                           : 2
+ 21-bit adder                                          : 1
+ 32-bit addsub                                         : 1
+# Registers                                            : 3
+ 1-bit register                                        : 1
+ 2-bit register                                        : 1
+ 21-bit register                                       : 1
+# Comparators                                          : 2
+ 2-bit comparator greater                              : 1
+ 32-bit comparator greater                             : 1
+# Multiplexers                                         : 20
+ 1-bit 2-to-1 multiplexer                              : 5
+ 1-bit 4-to-1 multiplexer                              : 8
+ 32-bit 2-to-1 multiplexer                             : 7
+# Logic shifters                                       : 1
+ 32-bit shifter logical left                           : 1
+# Xors                                                 : 3
+ 1-bit xor2                                            : 2
+ 32-bit xor2                                           : 1
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Top>.
+The following registers are absorbed into counter <count_l>: 1 register on signal <count_l>.
+Unit <Top> synthesized (advanced).
+
+Synthesizing (advanced) Unit <TopALU1test1>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0016> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 64-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <SZOP>          |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <TopALU1test1> synthesized (advanced).
+
+Synthesizing (advanced) Unit <tongyongshumaguan>.
+The following registers are absorbed into counter <Bit_Sel>: 1 register on signal <Bit_Sel>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_AN> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 4-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <Bit_Sel>       |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <AN>            |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_Seg> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <led_data>      |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <Seg>           |          |
+    -----------------------------------------------------------------------
+Unit <tongyongshumaguan> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 3
+ 16x8-bit single-port distributed Read Only RAM        : 1
+ 4x4-bit single-port distributed Read Only RAM         : 1
+ 8x64-bit single-port distributed Read Only RAM        : 1
+# Adders/Subtractors                                   : 2
+ 2-bit adder                                           : 1
+ 32-bit addsub                                         : 1
+# Counters                                             : 2
+ 2-bit up counter                                      : 1
+ 21-bit up counter                                     : 1
+# Registers                                            : 1
+ Flip-Flops                                            : 1
+# Comparators                                          : 2
+ 2-bit comparator greater                              : 1
+ 32-bit comparator greater                             : 1
+# Multiplexers                                         : 19
+ 1-bit 2-to-1 multiplexer                              : 4
+ 1-bit 4-to-1 multiplexer                              : 8
+ 32-bit 2-to-1 multiplexer                             : 7
+# Logic shifters                                       : 1
+ 32-bit shifter logical left                           : 1
+# Xors                                                 : 3
+ 1-bit xor2                                            : 2
+ 32-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <Top1/count_l_18> of sequential type is unconnected in block <TopALU1>.
+WARNING:Xst:2677 - Node <Top1/count_l_19> of sequential type is unconnected in block <TopALU1>.
+WARNING:Xst:2677 - Node <Top1/count_l_20> of sequential type is unconnected in block <TopALU1>.
+
+Optimizing unit <TopALU1test1> ...
+
+Optimizing unit <TopALU1> ...
+
+Optimizing unit <tongyongshumaguan> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block TopALU1test1, actual ratio is 3.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 21
+ Flip-Flops                                            : 21
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : TopALU1test1.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 319
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 17
+#      LUT2                        : 16
+#      LUT3                        : 31
+#      LUT4                        : 47
+#      LUT5                        : 28
+#      LUT6                        : 57
+#      MUXCY                       : 63
+#      MUXF7                       : 4
+#      VCC                         : 1
+#      XORCY                       : 50
+# FlipFlops/Latches                : 21
+#      FD                          : 2
+#      FDE                         : 1
+#      FDR                         : 18
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 21
+#      IBUF                        : 7
+#      OBUF                        : 14
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              21  out of  18224     0%  
+ Number of Slice LUTs:                  200  out of   9112     2%  
+    Number used as Logic:               200  out of   9112     2%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    200
+   Number with an unused Flip Flop:     179  out of    200    89%  
+   Number with an unused LUT:             0  out of    200     0%  
+   Number of fully used LUT-FF pairs:    21  out of    200    10%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                          22
+ Number of bonded IOBs:                  22  out of    232     9%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-----------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                         | Load  |
+-----------------------------------+-----------------------------------------------+-------+
+CLK                                | BUFGP                                         | 19    |
+TopAlu1/Top1/CLK_OUT_L             | NONE(TopAlu1/Top1/tongyongshumaguan/Bit_Sel_1)| 2     |
+-----------------------------------+-----------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 2.291ns (Maximum Frequency: 436.500MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.466ns
+   Maximum combinational path delay: 13.944ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 1.990ns (frequency: 502.550MHz)
+  Total number of paths / destination ports: 191 / 38
+-------------------------------------------------------------------------
+Delay:               1.990ns (Levels of Logic = 19)
+  Source:            TopAlu1/Top1/count_l_0 (FF)
+  Destination:       TopAlu1/Top1/count_l_17 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: TopAlu1/Top1/count_l_0 to TopAlu1/Top1/count_l_17
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   0.447   0.579  TopAlu1/Top1/count_l_0 (TopAlu1/Top1/count_l_0)
+     INV:I->O              1   0.206   0.000  TopAlu1/Top1/Mcount_count_l_lut<0>_INV_0 (TopAlu1/Top1/Mcount_count_l_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  TopAlu1/Top1/Mcount_count_l_cy<0> (TopAlu1/Top1/Mcount_count_l_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Top1/Mcount_count_l_cy<1> (TopAlu1/Top1/Mcount_count_l_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Top1/Mcount_count_l_cy<2> (TopAlu1/Top1/Mcount_count_l_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Top1/Mcount_count_l_cy<3> (TopAlu1/Top1/Mcount_count_l_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Top1/Mcount_count_l_cy<4> (TopAlu1/Top1/Mcount_count_l_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Top1/Mcount_count_l_cy<5> (TopAlu1/Top1/Mcount_count_l_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Top1/Mcount_count_l_cy<6> (TopAlu1/Top1/Mcount_count_l_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Top1/Mcount_count_l_cy<7> (TopAlu1/Top1/Mcount_count_l_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Top1/Mcount_count_l_cy<8> (TopAlu1/Top1/Mcount_count_l_cy<8>)
+     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Top1/Mcount_count_l_cy<9> (TopAlu1/Top1/Mcount_count_l_cy<9>)
+     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Top1/Mcount_count_l_cy<10> (TopAlu1/Top1/Mcount_count_l_cy<10>)
+     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Top1/Mcount_count_l_cy<11> (TopAlu1/Top1/Mcount_count_l_cy<11>)
+     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Top1/Mcount_count_l_cy<12> (TopAlu1/Top1/Mcount_count_l_cy<12>)
+     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Top1/Mcount_count_l_cy<13> (TopAlu1/Top1/Mcount_count_l_cy<13>)
+     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Top1/Mcount_count_l_cy<14> (TopAlu1/Top1/Mcount_count_l_cy<14>)
+     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Top1/Mcount_count_l_cy<15> (TopAlu1/Top1/Mcount_count_l_cy<15>)
+     MUXCY:CI->O           0   0.019   0.000  TopAlu1/Top1/Mcount_count_l_cy<16> (TopAlu1/Top1/Mcount_count_l_cy<16>)
+     XORCY:CI->O           1   0.180   0.000  TopAlu1/Top1/Mcount_count_l_xor<17> (TopAlu1/Result<17>)
+     FDR:D                     0.102          TopAlu1/Top1/count_l_17
+    ----------------------------------------
+    Total                      1.990ns (1.411ns logic, 0.579ns route)
+                                       (70.9% logic, 29.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'TopAlu1/Top1/CLK_OUT_L'
+  Clock period: 2.291ns (frequency: 436.500MHz)
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Delay:               2.291ns (Levels of Logic = 1)
+  Source:            TopAlu1/Top1/tongyongshumaguan/Bit_Sel_0 (FF)
+  Destination:       TopAlu1/Top1/tongyongshumaguan/Bit_Sel_0 (FF)
+  Source Clock:      TopAlu1/Top1/CLK_OUT_L rising
+  Destination Clock: TopAlu1/Top1/CLK_OUT_L rising
+
+  Data Path: TopAlu1/Top1/tongyongshumaguan/Bit_Sel_0 to TopAlu1/Top1/tongyongshumaguan/Bit_Sel_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              14   0.447   0.957  TopAlu1/Top1/tongyongshumaguan/Bit_Sel_0 (TopAlu1/Top1/tongyongshumaguan/Bit_Sel_0)
+     INV:I->O              1   0.206   0.579  TopAlu1/Top1/tongyongshumaguan/Mcount_Bit_Sel_xor<0>11_INV_0 (TopAlu1/Top1/tongyongshumaguan/Result<0>)
+     FD:D                      0.102          TopAlu1/Top1/tongyongshumaguan/Bit_Sel_0
+    ----------------------------------------
+    Total                      2.291ns (0.755ns logic, 1.536ns route)
+                                       (33.0% logic, 67.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'TopAlu1/Top1/CLK_OUT_L'
+  Total number of paths / destination ports: 120 / 11
+-------------------------------------------------------------------------
+Offset:              6.466ns (Levels of Logic = 4)
+  Source:            TopAlu1/Top1/tongyongshumaguan/Bit_Sel_0 (FF)
+  Destination:       SEG<7> (PAD)
+  Source Clock:      TopAlu1/Top1/CLK_OUT_L rising
+
+  Data Path: TopAlu1/Top1/tongyongshumaguan/Bit_Sel_0 to SEG<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              14   0.447   1.302  TopAlu1/Top1/tongyongshumaguan/Bit_Sel_0 (TopAlu1/Top1/tongyongshumaguan/Bit_Sel_0)
+     LUT6:I1->O            1   0.203   0.000  TopAlu1/Top1/tongyongshumaguan/Mmux_led_data<2>_3 (TopAlu1/Top1/tongyongshumaguan/Mmux_led_data<2>_3)
+     MUXF7:I1->O           7   0.140   1.021  TopAlu1/Top1/tongyongshumaguan/Mmux_led_data<2>_2_f7 (TopAlu1/Top1/tongyongshumaguan/led_data<2>)
+     LUT4:I0->O            1   0.203   0.579  TopAlu1/Top1/tongyongshumaguan/Mram_Seg61 (SEG_6_OBUF)
+     OBUF:I->O                 2.571          SEG_6_OBUF (SEG<6>)
+    ----------------------------------------
+    Total                      6.466ns (3.564ns logic, 2.902ns route)
+                                       (55.1% logic, 44.9% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 36856 / 9
+-------------------------------------------------------------------------
+Delay:               13.944ns (Levels of Logic = 24)
+  Source:            SZOP<1> (PAD)
+  Destination:       SEG<5> (PAD)
+
+  Data Path: SZOP<1> to SEG<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            64   1.222   1.868  SZOP_1_IBUF (SZOP_1_IBUF)
+     LUT3:I0->O           37   0.205   1.591  Mram__n0016131 (Mram__n001613)
+     LUT4:I1->O            1   0.205   0.000  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_lut<1> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_lut<1>)
+     MUXCY:S->O            1   0.172   0.000  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<1> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<2> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<3> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<4> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<5> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<6> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<7> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<8> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<8>)
+     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<9> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<9>)
+     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<10> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<10>)
+     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<11> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<11>)
+     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<12> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<12>)
+     MUXCY:CI->O           1   0.019   0.000  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<13> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<13>)
+     MUXCY:CI->O           1   0.213   0.684  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<14> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<14>)
+     LUT5:I3->O            1   0.203   0.808  TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<15> (TopAlu1/Mcompar_AA[31]_BB[31]_LessThan_7_o_cy<15>)
+     LUT6:I3->O            1   0.205   0.580  TopAlu1/Mmux_F714 (TopAlu1/Mmux_F711)
+     LUT6:I5->O            2   0.205   0.845  TopAlu1/Mmux_F715 (TopAlu1/Mmux_F7_split<0>)
+     LUT6:I3->O            1   0.205   0.000  TopAlu1/Top1/tongyongshumaguan/Mmux_led_data<0>_4 (TopAlu1/Top1/tongyongshumaguan/Mmux_led_data<0>_4)
+     MUXF7:I0->O           7   0.131   1.021  TopAlu1/Top1/tongyongshumaguan/Mmux_led_data<0>_2_f7 (TopAlu1/Top1/tongyongshumaguan/led_data<0>)
+     LUT4:I0->O            1   0.203   0.579  TopAlu1/Top1/tongyongshumaguan/Seg<2>1 (SEG_2_OBUF)
+     OBUF:I->O                 2.571          SEG_2_OBUF (SEG<2>)
+    ----------------------------------------
+    Total                     13.944ns (5.968ns logic, 7.976ns route)
+                                       (42.8% logic, 57.2% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    1.990|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock TopAlu1/Top1/CLK_OUT_L
+----------------------+---------+---------+---------+---------+
+                      | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock          |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------------+---------+---------+---------+---------+
+TopAlu1/Top1/CLK_OUT_L|    2.291|         |         |         |
+----------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.78 secs
+ 
+--> 
+
+Total memory usage is 248592 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   10 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
+

@@ -18,16 +18,21 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module TopALU1test1(input [31:0] TA,input [31:0] TB,input [2:0] OP,output reg ZF,output reg OF,input CLK,input SEL,output AN,output SEG
+module TopALU1test1(input [2:0] SZOP,input [2:0] GNOP,output ZF,output OF,input CLK,input SEL,output [3:0] AN,output [7:0] SEG
     );
-	reg[31:0] FF;
-	
+	wire [31:0] FF;
+	wire OF;
+	wire ZF;
+	wire [3:0] AN;
+	wire [7:0] SEG;
+	reg [31:0] TA;
+	reg [31:0] TB;
 	//module TopALU1(input [31:0] AA, input [31:0] BB, input [2:0] ALU_OP, output reg [31:0] F, output reg ZF,output OF, 
 	//				input CLK,input Sel,output An,output Seg 
-	TopALU1 TopAlu1(.AA(TA),.BB(TB),.ALU_OP(OP),.F(FF),.ZF(ZF),.OF(OF),.CLK(CLK),.Sel(SEL),.An(AN),.Seg(SEG));
+	TopALU1 TopAlu1(.AA(TA),.BB(TB),.ALU_OP(GNOP),.F(FF),.ZF(ZF),.OF(OF),.CLK(CLK),.Sel(SEL),.An(AN),.Seg(SEG));
 	always @ (*)
 	begin
-		case(OP)
+		case(SZOP)
 			3'b000:begin TA = 32'h0000_0000;TB = 32'h0000_0000;end
 			3'b001:begin TA = 32'h0000_0003;TB=32'h0000_0607;end
 			3'b010:begin TA = 32'h8000_0000;TB=32'h8000_0000;end
