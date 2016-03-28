@@ -31,20 +31,20 @@ module Top_Module_1(
     output  [7:0] Seg
     );
 	 wire [31:0] Data;
-	 reg [17:0] fenpinl;
+	 reg [17:0] fenpin1;
 	 reg CLKOUT;
 	 reg [31:0] Data_In;
 	 
 	 Digital_Tube1 Digital_Tuble_1(.CLK_S(CLKOUT),.Data(Data),.AN(AN),.Seg(Seg),.Sel(Sel));
-	 Register_Stack_1 Register_Stack_1(.CLK(CLK_Register),.Reset(Reset),.Write_Reg(Write_Reg),.W_Addr(Addr),.W_Data(Data_In),.R_Addr_A(Addr),.R_Addr_B(Addr),.R_Data_A(Data),.R_Data_B(Data));
+	 Register_Stack_1 Register_Stack_1(.CLK(CLK_Register),.Reset(Reset),.Write_Reg(Write_Reg),.W_Addr(Addr),.W_Data(Data_In),.R_Addr_A(Addr),.R_Addr_B(Addr),.R_Data_A(Data));
 //
 	 
 	 always@(Sel_Data)
 		begin
 			case(Sel_Data)
-				2'b00:Data_In = 32'b00010010001101000101011001111000;
-				2'b01:Data_In = 32'b11111111111111111111111111111111;
-				2'b10:Data_In = 32'b11110000111100001111000011110000;
+				2'b00:Data_In = 32'b01010101010101010101010101010101;
+				2'b01:Data_In = 32'b00010001000100010001000100010001;
+				2'b10:Data_In = 32'b10100001111011011011011100110110;
 				2'b11:Data_In = 127;
 			endcase
 	 end

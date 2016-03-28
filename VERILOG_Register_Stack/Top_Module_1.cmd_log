@@ -1,0 +1,29 @@
+xst -intstyle ise -ifn "C:/VERILOG_Register_Stack/Top_Module_1.xst" -ofn "C:/VERILOG_Register_Stack/Top_Module_1.syr" 
+xst -intstyle ise -ifn "C:/VERILOG_Register_Stack/Top_Module_1.xst" -ofn "C:/VERILOG_Register_Stack/Top_Module_1.syr" 
+xst -intstyle ise -ifn "C:/VERILOG_Register_Stack/Top_Module_1.xst" -ofn "C:/VERILOG_Register_Stack/Top_Module_1.syr" 
+xst -intstyle ise -ifn "C:/VERILOG_Register_Stack/Top_Module_1.xst" -ofn "C:/VERILOG_Register_Stack/Top_Module_1.syr" 
+xst -intstyle ise -ifn "C:/VERILOG_Register_Stack/Top_Module_1.xst" -ofn "C:/VERILOG_Register_Stack/Top_Module_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top_Module_1.ucf -p xc6slx16-csg324-3 Top_Module_1.ngc Top_Module_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_Module_1_map.ncd Top_Module_1.ngd Top_Module_1.pcf 
+par -w -intstyle ise -ol high -mt off Top_Module_1_map.ncd Top_Module_1.ncd Top_Module_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top_Module_1.twx Top_Module_1.ncd -o Top_Module_1.twr Top_Module_1.pcf -ucf Top_Module_1.ucf 
+bitgen -intstyle ise -f Top_Module_1.ut Top_Module_1.ncd 
+xst -intstyle ise -ifn "C:/VERILOG_Register_Stack/Top_Module_1.xst" -ofn "C:/VERILOG_Register_Stack/Top_Module_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top_Module_1.ucf -p xc6slx16-csg324-3 Top_Module_1.ngc Top_Module_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_Module_1_map.ncd Top_Module_1.ngd Top_Module_1.pcf 
+par -w -intstyle ise -ol high -mt off Top_Module_1_map.ncd Top_Module_1.ncd Top_Module_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top_Module_1.twx Top_Module_1.ncd -o Top_Module_1.twr Top_Module_1.pcf -ucf Top_Module_1.ucf 
+bitgen -intstyle ise -f Top_Module_1.ut Top_Module_1.ncd 
+xst -intstyle ise -ifn "C:/VERILOG_Register_Stack/Top_Module_1.xst" -ofn "C:/VERILOG_Register_Stack/Top_Module_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top_Module_1.ucf -p xc6slx16-csg324-3 Top_Module_1.ngc Top_Module_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_Module_1_map.ncd Top_Module_1.ngd Top_Module_1.pcf 
+par -w -intstyle ise -ol high -mt off Top_Module_1_map.ncd Top_Module_1.ncd Top_Module_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top_Module_1.twx Top_Module_1.ncd -o Top_Module_1.twr Top_Module_1.pcf -ucf Top_Module_1.ucf 
+bitgen -intstyle ise -f Top_Module_1.ut Top_Module_1.ncd 
+xst -intstyle ise -ifn "C:/VERILOG_Register_Stack/Top_Module_1.xst" -ofn "C:/VERILOG_Register_Stack/Top_Module_1.syr" 
+xst -intstyle ise -ifn "C:/VERILOG_Register_Stack/Top_Module_1.xst" -ofn "C:/VERILOG_Register_Stack/Top_Module_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top_Module_1.ucf -p xc6slx16-csg324-3 Top_Module_1.ngc Top_Module_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_Module_1_map.ncd Top_Module_1.ngd Top_Module_1.pcf 
+par -w -intstyle ise -ol high -mt off Top_Module_1_map.ncd Top_Module_1.ncd Top_Module_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top_Module_1.twx Top_Module_1.ncd -o Top_Module_1.twr Top_Module_1.pcf -ucf Top_Module_1.ucf 
+bitgen -intstyle ise -f Top_Module_1.ut Top_Module_1.ncd 

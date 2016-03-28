@@ -36,22 +36,29 @@ module Register_Stack_1(
 	 assign R_Data_B = REG_Files[R_Addr_B];
 	 
 	 //书上写的来
-	 reg[5:0] count_flash;
+	 reg[5:0] count;
 	
 	 always @ (posedge CLK or posedge Reset)
 		begin
 			if(Reset)//如果要重置，就全部重置为0
 				begin
-					for(k=000000;k<111111;k = k+1)
+					for(count = 0;count <32;count = count + 1)
 						begin
-							REG_Files[k] <= 0;
+							REG_Files[count] <= 0;
 						end
 				end
 			else//没有重置
 				begin
 					if(Write_Reg)//如果要写我就写
 						begin
-							REG_Files[W_Addr] <= W_Data;
+							if(W_Addr==0)
+								begin
+									REG_Files[W_Addr] <= 0;
+								end
+							else
+								begin
+									REG_Files[W_Addr] <= W_Data;
+								end
 						end
 				end
 		end
