@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\shiyan5_4_25\experiment5_storage_1_top.ncd
+OUTFILE=C:\shiyan5_4_25\experiment5_storage_1_top.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\shiyan5_4_25
+LICENSE=WebPack
+USER_INFO=__0_0_0

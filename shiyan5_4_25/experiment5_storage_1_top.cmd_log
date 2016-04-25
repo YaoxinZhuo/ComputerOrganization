@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/shiyan5_4_25/experiment5_storage_1_top.xst" -ofn "C:/shiyan5_4_25/experiment5_storage_1_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc experiment5_storage_1_top.ucf -p xc6slx16-csg324-3 experiment5_storage_1_top.ngc experiment5_storage_1_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o experiment5_storage_1_top_map.ncd experiment5_storage_1_top.ngd experiment5_storage_1_top.pcf 
+par -w -intstyle ise -ol high -mt off experiment5_storage_1_top_map.ncd experiment5_storage_1_top.ncd experiment5_storage_1_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml experiment5_storage_1_top.twx experiment5_storage_1_top.ncd -o experiment5_storage_1_top.twr experiment5_storage_1_top.pcf -ucf experiment5_storage_1_top.ucf 
+bitgen -intstyle ise -f experiment5_storage_1_top.ut experiment5_storage_1_top.ncd 
+xst -intstyle ise -ifn "C:/shiyan5_4_25/experiment5_storage_1_top.xst" -ofn "C:/shiyan5_4_25/experiment5_storage_1_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc experiment5_storage_1_top.ucf -p xc6slx16-csg324-3 experiment5_storage_1_top.ngc experiment5_storage_1_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o experiment5_storage_1_top_map.ncd experiment5_storage_1_top.ngd experiment5_storage_1_top.pcf 
+par -w -intstyle ise -ol high -mt off experiment5_storage_1_top_map.ncd experiment5_storage_1_top.ncd experiment5_storage_1_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml experiment5_storage_1_top.twx experiment5_storage_1_top.ncd -o experiment5_storage_1_top.twr experiment5_storage_1_top.pcf -ucf experiment5_storage_1_top.ucf 
+bitgen -intstyle ise -f experiment5_storage_1_top.ut experiment5_storage_1_top.ncd 
