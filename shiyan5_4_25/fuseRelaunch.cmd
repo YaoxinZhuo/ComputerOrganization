@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "Y:/Desktop/ComputerOrganization/shiyan5_4_25/zonghetest_isim_beh.exe" -prj "Y:/Desktop/ComputerOrganization/shiyan5_4_25/zonghetest_beh.prj" "work.zonghetest" "work.glbl" 

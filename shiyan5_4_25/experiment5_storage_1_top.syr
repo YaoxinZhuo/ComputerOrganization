@@ -1,16 +1,16 @@
-Release 14.7 - xst P.20131013 (nt64)
+Release 14.7 - xst P.20131013 (nt)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.10 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.10 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Reading design: experiment5_storage_1_top.prj
 
@@ -108,294 +108,28 @@ Cores Search Directories           : {"ipcore_dir"  }
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "C:\shiyan5_4_25\ipcore_dir\RAM_B.v" into library work
+Analyzing Verilog file "\\mac\home\Desktop\ComputerOrganization\shiyan5_4_25\Register_4.v" into library work
+Parsing module <Register_4>.
+Analyzing Verilog file "\\mac\home\Desktop\ComputerOrganization\shiyan5_4_25\ipcore_dir\RAM_B.v" into library work
 Parsing module <RAM_B>.
-Analyzing Verilog file "C:\shiyan5_4_25\shiyan5_test1.v" into library work
+Analyzing Verilog file "\\mac\home\Desktop\ComputerOrganization\shiyan5_4_25\ALU4.v" into library work
+Parsing module <ALU4>.
+Analyzing Verilog file "\\mac\home\Desktop\ComputerOrganization\shiyan5_4_25\shiyan5_test1.v" into library work
 Parsing module <experiment5_storage_1_top>.
-WARNING:HDLCompiler:751 - "C:\shiyan5_4_25\shiyan5_test1.v" Line 25: Redeclaration of ansi port Mem_Write is not allowed
-
-=========================================================================
-*                            HDL Elaboration                            *
-=========================================================================
-
-Elaborating module <experiment5_storage_1_top>.
-
-Elaborating module <RAM_B>.
-WARNING:HDLCompiler:1499 - "C:\shiyan5_4_25\ipcore_dir\RAM_B.v" Line 39: Empty module <RAM_B> remains a black box.
-
-=========================================================================
-*                           HDL Synthesis                               *
-=========================================================================
-
-Synthesizing Unit <experiment5_storage_1_top>.
-    Related source file is "C:\shiyan5_4_25\shiyan5_test1.v".
-    Found 1-bit 4-to-1 multiplexer for signal <Mem_Addr[1]_Read_Data[31]_wide_mux_1_OUT<7>> created at line 27.
-    Found 1-bit 4-to-1 multiplexer for signal <Mem_Addr[1]_Read_Data[31]_wide_mux_1_OUT<6>> created at line 27.
-    Found 1-bit 4-to-1 multiplexer for signal <Mem_Addr[1]_Read_Data[31]_wide_mux_1_OUT<5>> created at line 27.
-    Found 1-bit 4-to-1 multiplexer for signal <Mem_Addr[1]_Read_Data[31]_wide_mux_1_OUT<4>> created at line 27.
-    Found 1-bit 4-to-1 multiplexer for signal <Mem_Addr[1]_Read_Data[31]_wide_mux_1_OUT<3>> created at line 27.
-    Found 1-bit 4-to-1 multiplexer for signal <Mem_Addr[1]_Read_Data[31]_wide_mux_1_OUT<2>> created at line 27.
-    Found 1-bit 4-to-1 multiplexer for signal <Mem_Addr[1]_Read_Data[31]_wide_mux_1_OUT<1>> created at line 27.
-    Found 1-bit 4-to-1 multiplexer for signal <Mem_Addr[1]_Read_Data[31]_wide_mux_1_OUT<0>> created at line 27.
-WARNING:Xst:737 - Found 1-bit latch for signal <LED<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <LED<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <LED<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <LED<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <LED<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <LED<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <LED<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Write_Data<31>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Write_Data<30>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Write_Data<29>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <Write_Data<19>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <LED<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-    Summary:
-	inferred  12 Latch(s).
-	inferred   8 Multiplexer(s).
-Unit <experiment5_storage_1_top> synthesized.
-
-=========================================================================
-HDL Synthesis Report
-
-Macro Statistics
-# Latches                                              : 12
- 1-bit latch                                           : 12
-# Multiplexers                                         : 8
- 1-bit 4-to-1 multiplexer                              : 8
-
-=========================================================================
-
-=========================================================================
-*                       Advanced HDL Synthesis                          *
-=========================================================================
-
-Reading core <ipcore_dir/RAM_B.ngc>.
-Loading core <RAM_B> for timing and area information for instance <RAM_B_INSTANCE>.
-
-=========================================================================
-Advanced HDL Synthesis Report
-
-Macro Statistics
-# Multiplexers                                         : 8
- 1-bit 4-to-1 multiplexer                              : 8
-
-=========================================================================
-
-=========================================================================
-*                         Low Level Synthesis                           *
-=========================================================================
-
-Optimizing unit <experiment5_storage_1_top> ...
-
-Mapping all equations...
-Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block experiment5_storage_1_top, actual ratio is 0.
-
-Final Macro Processing ...
-
-=========================================================================
-Final Register Report
-
-Found no macro
-=========================================================================
-
-=========================================================================
-*                           Partition Report                            *
-=========================================================================
-
-Partition Implementation Status
--------------------------------
-
-  No Partitions were found in this design.
-
--------------------------------
-
-=========================================================================
-*                            Design Summary                             *
-=========================================================================
-
-Top Level Output File Name         : experiment5_storage_1_top.ngc
-
-Primitive and Black Box Usage:
-------------------------------
-# BELS                             : 12
-#      GND                         : 1
-#      LUT2                        : 2
-#      LUT6                        : 8
-#      VCC                         : 1
-# FlipFlops/Latches                : 12
-#      LD                          : 4
-#      LD_1                        : 8
-# RAMS                             : 1
-#      RAMB8BWER                   : 1
-# Clock Buffers                    : 2
-#      BUFG                        : 1
-#      BUFGP                       : 1
-# IO Buffers                       : 17
-#      IBUF                        : 9
-#      OBUF                        : 8
-
-Device utilization summary:
----------------------------
-
-Selected Device : 6slx16csg324-3 
-
-
-Slice Logic Utilization: 
- Number of Slice Registers:               4  out of  18224     0%  
- Number of Slice LUTs:                   10  out of   9112     0%  
-    Number used as Logic:                10  out of   9112     0%  
-
-Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:     14
-   Number with an unused Flip Flop:      10  out of     14    71%  
-   Number with an unused LUT:             4  out of     14    28%  
-   Number of fully used LUT-FF pairs:     0  out of     14     0%  
-   Number of unique control sets:         1
-
-IO Utilization: 
- Number of IOs:                          18
- Number of bonded IOBs:                  18  out of    232     7%  
-    IOB Flip Flops/Latches:               8
-
-Specific Feature Utilization:
- Number of Block RAM/FIFO:                1  out of     32     3%  
-    Number using Block RAM only:          1
- Number of BUFG/BUFGCTRLs:                2  out of     16    12%  
-
----------------------------
-Partition Resource Summary:
----------------------------
-
-  No Partitions were found in this design.
-
----------------------------
-
-
-=========================================================================
-Timing Report
-
-NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
-      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
-      GENERATED AFTER PLACE-and-ROUTE.
-
-Clock Information:
-------------------
------------------------------------+------------------------+-------+
-Clock Signal                       | Clock buffer(FF name)  | Load  |
------------------------------------+------------------------+-------+
-Mem_Write                          | IBUF+BUFG              | 12    |
-clk_m                              | BUFGP                  | 1     |
------------------------------------+------------------------+-------+
-
-Asynchronous Control Signals Information:
-----------------------------------------
-No asynchronous control signals found in this design
-
-Timing Summary:
----------------
-Speed Grade: -3
-
-   Minimum period: No path found
-   Minimum input arrival time before clock: 2.709ns
-   Maximum output required time after clock: 3.648ns
-   Maximum combinational path delay: No path found
-
-Timing Details:
----------------
-All values displayed in nanoseconds (ns)
-
-=========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'Mem_Write'
-  Total number of paths / destination ports: 22 / 12
--------------------------------------------------------------------------
-Offset:              2.709ns (Levels of Logic = 2)
-  Source:            Mem_Addr<0> (PAD)
-  Destination:       LED_5 (LATCH)
-  Destination Clock: Mem_Write rising
-
-  Data Path: Mem_Addr<0> to LED_5
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     IBUF:I->O            11   1.222   1.247  Mem_Addr_0_IBUF (Mem_Addr_0_IBUF)
-     LUT6:I0->O            1   0.203   0.000  Mmux_Mem_Addr[1]_Read_Data[31]_wide_mux_1_OUT<0>11 (Mem_Addr[1]_Read_Data[31]_wide_mux_1_OUT<0>)
-     LD_1:D                    0.037          LED_0
-    ----------------------------------------
-    Total                      2.709ns (1.462ns logic, 1.247ns route)
-                                       (54.0% logic, 46.0% route)
-
-=========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_m'
-  Total number of paths / destination ports: 16 / 16
--------------------------------------------------------------------------
-Offset:              2.188ns (Levels of Logic = 2)
-  Source:            Mem_Addr<7> (PAD)
-  Destination:       RAM_B_INSTANCE/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM9.ram (RAM)
-  Destination Clock: clk_m rising
-
-  Data Path: Mem_Addr<7> to RAM_B_INSTANCE/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM9.ram
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     IBUF:I->O             2   1.222   0.616  Mem_Addr_7_IBUF (Mem_Addr_7_IBUF)
-     begin scope: 'RAM_B_INSTANCE:addra<5>'
-     RAMB8BWER:ADDRAWRADDR10        0.350          U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM9.ram
-    ----------------------------------------
-    Total                      2.188ns (1.572ns logic, 0.616ns route)
-                                       (71.8% logic, 28.2% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Mem_Write'
-  Total number of paths / destination ports: 8 / 8
--------------------------------------------------------------------------
-Offset:              3.648ns (Levels of Logic = 1)
-  Source:            LED_7 (LATCH)
-  Destination:       LED<7> (PAD)
-  Source Clock:      Mem_Write rising
-
-  Data Path: LED_7 to LED<7>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD_1:G->Q             1   0.498   0.579  LED_7 (LED_7)
-     OBUF:I->O                 2.571          LED_7_OBUF (LED<7>)
-    ----------------------------------------
-    Total                      3.648ns (3.069ns logic, 0.579ns route)
-                                       (84.1% logic, 15.9% route)
-
-=========================================================================
-
-Cross Clock Domains Report:
---------------------------
-
-Clock to Setup on destination clock Mem_Write
----------------+---------+---------+---------+---------+
-               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
-Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
----------------+---------+---------+---------+---------+
-clk_m          |    2.900|         |         |         |
----------------+---------+---------+---------+---------+
-
-Clock to Setup on destination clock clk_m
----------------+---------+---------+---------+---------+
-               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
-Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
----------------+---------+---------+---------+---------+
-Mem_Write      |         |    1.755|         |         |
----------------+---------+---------+---------+---------+
-
-=========================================================================
-
-
-Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 5.70 secs
- 
+WARNING:HDLCompiler:751 - "\\mac\home\Desktop\ComputerOrganization\shiyan5_4_25\shiyan5_test1.v" Line 43: Redeclaration of ansi port Storage_Mem_Write is not allowed
+WARNING:HDLCompiler:751 - "\\mac\home\Desktop\ComputerOrganization\shiyan5_4_25\shiyan5_test1.v" Line 50: Redeclaration of ansi port Register_Write_Reg is not allowed
+WARNING:HDLCompiler:751 - "\\mac\home\Desktop\ComputerOrganization\shiyan5_4_25\shiyan5_test1.v" Line 51: Redeclaration of ansi port Register_Reset is not allowed
+WARNING:HDLCompiler:751 - "\\mac\home\Desktop\ComputerOrganization\shiyan5_4_25\shiyan5_test1.v" Line 52: Redeclaration of ansi port Register_Data_A is not allowed
+WARNING:HDLCompiler:751 - "\\mac\home\Desktop\ComputerOrganization\shiyan5_4_25\shiyan5_test1.v" Line 53: Redeclaration of ansi port Register_Data_B is not allowed
+WARNING:HDLCompiler:751 - "\\mac\home\Desktop\ComputerOrganization\shiyan5_4_25\shiyan5_test1.v" Line 58: Redeclaration of ansi port ALU_OPP is not allowed
+ERROR:HDLCompiler:718 - "\\mac\home\Desktop\ComputerOrganization\shiyan5_4_25\shiyan5_test1.v" Line 87: Port connections cannot be mixed ordered and named
+ERROR:HDLCompiler:598 - "\\mac\home\Desktop\ComputerOrganization\shiyan5_4_25\shiyan5_test1.v" Line 21: Module <experiment5_storage_1_top> ignored due to previous errors.
+Verilog file \\mac\home\Desktop\ComputerOrganization\shiyan5_4_25\shiyan5_test1.v ignored due to errors
 --> 
 
-Total memory usage is 279096 kilobytes
+Total memory usage is 211780 kilobytes
 
-Number of errors   :    0 (   0 filtered)
-Number of warnings :   14 (   0 filtered)
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    6 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

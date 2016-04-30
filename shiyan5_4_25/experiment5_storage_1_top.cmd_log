@@ -10,3 +10,5 @@ map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -re
 par -w -intstyle ise -ol high -mt off experiment5_storage_1_top_map.ncd experiment5_storage_1_top.ncd experiment5_storage_1_top.pcf 
 trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml experiment5_storage_1_top.twx experiment5_storage_1_top.ncd -o experiment5_storage_1_top.twr experiment5_storage_1_top.pcf -ucf experiment5_storage_1_top.ucf 
 bitgen -intstyle ise -f experiment5_storage_1_top.ut experiment5_storage_1_top.ncd 
+xst -intstyle ise -ifn "Y:/Desktop/ComputerOrganization/shiyan5_4_25/experiment5_storage_1_top.xst" -ofn "Y:/Desktop/ComputerOrganization/shiyan5_4_25/experiment5_storage_1_top.syr" 
+xst -intstyle ise -ifn "Y:/Desktop/ComputerOrganization/shiyan5_4_25/experiment5_storage_1_top.xst" -ofn "Y:/Desktop/ComputerOrganization/shiyan5_4_25/experiment5_storage_1_top.syr" 

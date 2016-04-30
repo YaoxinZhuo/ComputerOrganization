@@ -1,0 +1,6 @@
+verilog work "Register_4.v"
+verilog work "ipcore_dir/RAM_B.v"
+verilog work "ALU4.v"
+verilog work "shiyan5_test1.v"
+verilog work "zonghetest.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

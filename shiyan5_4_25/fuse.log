@@ -1,0 +1,42 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o Y:/Desktop/ComputerOrganization/shiyan5_4_25/zonghetest_isim_beh.exe -prj Y:/Desktop/ComputerOrganization/shiyan5_4_25/zonghetest_beh.prj work.zonghetest work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "Y:/Desktop/ComputerOrganization/shiyan5_4_25/Register_4.v" into library work
+Analyzing Verilog file "Y:/Desktop/ComputerOrganization/shiyan5_4_25/ipcore_dir/RAM_B.v" into library work
+Analyzing Verilog file "Y:/Desktop/ComputerOrganization/shiyan5_4_25/ALU4.v" into library work
+WARNING:HDLCompiler:751 - "Y:/Desktop/ComputerOrganization/shiyan5_4_25/ALU4.v" Line 24: Redeclaration of ansi port F is not allowed
+Analyzing Verilog file "Y:/Desktop/ComputerOrganization/shiyan5_4_25/shiyan5_test1.v" into library work
+WARNING:HDLCompiler:751 - "Y:/Desktop/ComputerOrganization/shiyan5_4_25/shiyan5_test1.v" Line 43: Redeclaration of ansi port Storage_Mem_Write is not allowed
+WARNING:HDLCompiler:751 - "Y:/Desktop/ComputerOrganization/shiyan5_4_25/shiyan5_test1.v" Line 50: Redeclaration of ansi port Register_Write_Reg is not allowed
+WARNING:HDLCompiler:751 - "Y:/Desktop/ComputerOrganization/shiyan5_4_25/shiyan5_test1.v" Line 51: Redeclaration of ansi port Register_Reset is not allowed
+WARNING:HDLCompiler:751 - "Y:/Desktop/ComputerOrganization/shiyan5_4_25/shiyan5_test1.v" Line 52: Redeclaration of ansi port Register_Data_A is not allowed
+WARNING:HDLCompiler:751 - "Y:/Desktop/ComputerOrganization/shiyan5_4_25/shiyan5_test1.v" Line 53: Redeclaration of ansi port Register_Data_B is not allowed
+WARNING:HDLCompiler:751 - "Y:/Desktop/ComputerOrganization/shiyan5_4_25/shiyan5_test1.v" Line 58: Redeclaration of ansi port ALU_OPP is not allowed
+Analyzing Verilog file "Y:/Desktop/ComputerOrganization/shiyan5_4_25/zonghetest.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:329 - "Y:/Desktop/ComputerOrganization/shiyan5_4_25/shiyan5_test1.v" Line 85: Target <Register_Data_A> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "Y:/Desktop/ComputerOrganization/shiyan5_4_25/shiyan5_test1.v" Line 86: Target <Register_Data_B> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "Y:/Desktop/ComputerOrganization/shiyan5_4_25/shiyan5_test1.v" Line 93: Target <ALU_F> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:189 - "Y:/Desktop/ComputerOrganization/shiyan5_4_25/zonghetest.v" Line 51: Size mismatch in connection of port <ALU_OPP>. Formal port size is 3-bit while actual signal size is 1-bit.
+Completed static elaboration
+Fuse Memory Usage: 139384 KB
+Fuse CPU Usage: 296 ms
+Compiling module Register_4
+Compiling module ALU4
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart...
+Compiling module RAM_B
+Compiling module experiment5_storage_1_top
+Compiling module zonghetest
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 10 Verilog Units
+Built simulation executable Y:/Desktop/ComputerOrganization/shiyan5_4_25/zonghetest_isim_beh.exe
+Fuse Memory Usage: 148468 KB
+Fuse CPU Usage: 515 ms

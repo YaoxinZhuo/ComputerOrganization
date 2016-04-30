@@ -52,6 +52,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="experiment5_storage_1_top.ut" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="experiment5_storage_1_top.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="experiment5_storage_1_top.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="experiment5_storage_1_top_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="experiment5_storage_1_top_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="experiment5_storage_1_top_map.map" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="experiment5_storage_1_top_map.mrp" xil_pn:subbranch="Map"/>
@@ -62,19 +63,85 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="experiment5_storage_1_top_pad.csv" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="experiment5_storage_1_top_pad.txt" xil_pn:subbranch="Par"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="experiment5_storage_1_top_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="experiment5_storage_1_top_summary.html"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="experiment5_storage_1_top_summary.xml"/>
     <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="experiment5_storage_1_top_usage.xml"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="experiment5_storage_1_top_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="ipcore_dir/coregen.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="zonghetest_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="zonghetest_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="zonghetest_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="zonghetest_stx_beh.prj"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1461983224" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1461983224">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1461984915" xil_pn:in_ck="-8138384391947206118" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1461984915">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU4.v"/>
+      <outfile xil_pn:name="Register_4.v"/>
+      <outfile xil_pn:name="shiyan5_test1.v"/>
+      <outfile xil_pn:name="zonghetest.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1461983224" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="314853219280408834" xil_pn:start_ts="1461983224">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1461983224" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-662610078514762560" xil_pn:start_ts="1461983224">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1461983224" xil_pn:in_ck="-5112010202250014648" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="1797782323093940080" xil_pn:start_ts="1461983224">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/RAM_B.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/RAM_B.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1461984915" xil_pn:in_ck="2800662834101370030" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1461984915">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU4.v"/>
+      <outfile xil_pn:name="Register_4.v"/>
+      <outfile xil_pn:name="ipcore_dir/RAM_B.v"/>
+      <outfile xil_pn:name="shiyan5_test1.v"/>
+      <outfile xil_pn:name="zonghetest.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1461984918" xil_pn:in_ck="2800662834101370030" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6698425365805909923" xil_pn:start_ts="1461984915">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+      <outfile xil_pn:name="zonghetest_beh.prj"/>
+      <outfile xil_pn:name="zonghetest_isim_beh.exe"/>
+    </transform>
+    <transform xil_pn:end_ts="1461984918" xil_pn:in_ck="107397775599414938" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4326893777587042374" xil_pn:start_ts="1461984918">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="zonghetest_isim_beh.wdb"/>
+    </transform>
     <transform xil_pn:end_ts="1461552453" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1461552453">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -105,8 +172,8 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1461552997" xil_pn:in_ck="-2461714717043278551" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="8278953626517252159" xil_pn:start_ts="1461552988">
-      <status xil_pn:value="SuccessfullyRun"/>
+    <transform xil_pn:end_ts="1461983653" xil_pn:in_ck="-4901559244737789857" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="8278953626517252159" xil_pn:start_ts="1461983647">
+      <status xil_pn:value="FailedRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
@@ -116,9 +183,7 @@
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="experiment5_storage_1_top.lso"/>
       <outfile xil_pn:name="experiment5_storage_1_top.ngc"/>
-      <outfile xil_pn:name="experiment5_storage_1_top.ngr"/>
       <outfile xil_pn:name="experiment5_storage_1_top.prj"/>
-      <outfile xil_pn:name="experiment5_storage_1_top.stx"/>
       <outfile xil_pn:name="experiment5_storage_1_top.syr"/>
       <outfile xil_pn:name="experiment5_storage_1_top.xst"/>
       <outfile xil_pn:name="experiment5_storage_1_top_xst.xrpt"/>
@@ -132,7 +197,9 @@
     <transform xil_pn:end_ts="1461553002" xil_pn:in_ck="2474063823643307104" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="6186209043817908273" xil_pn:start_ts="1461552997">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
       <outfile xil_pn:name="experiment5_storage_1_top.bld"/>
@@ -175,6 +242,8 @@
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="experiment5_storage_1_top.bgn"/>
       <outfile xil_pn:name="experiment5_storage_1_top.bit"/>
