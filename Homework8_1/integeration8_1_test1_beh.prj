@@ -1,0 +1,8 @@
+verilog work "ipcore_dir/Inst_Rom_8_1.v"
+verilog work "translateInstructAndFunction.v"
+verilog work "Register_8_1jicunqiDui.v"
+verilog work "instruct_Register_8_1.v"
+verilog work "ALU_8_1fromExperiment3.v"
+verilog work "Integration_8_1.v"
+verilog work "integeration8_1_test1.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

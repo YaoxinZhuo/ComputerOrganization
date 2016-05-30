@@ -1,0 +1,28 @@
+Command line:
+   integeration8_1_test1_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58197
+
+Mon May 30 10:51:11 2016
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 729.526 Meg
+
+ Total Signals          : 194
+ Total Nets             : 824
+ Total Signal Drivers   : 80
+ Total Blocks           : 24
+ Total Primitive Blocks : 18
+ Total Processes        : 98
+ Total Traceable Variables  : 347
+ Total Scalar Nets and Variables : 22349
+
+ Total Simulation Time: 0.125 sec
+
+ Current Memory Usage: 729.526 Meg
+
+Mon May 30 10:51:20 2016
+

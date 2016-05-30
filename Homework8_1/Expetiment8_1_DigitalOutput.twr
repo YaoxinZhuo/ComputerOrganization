@@ -1,0 +1,129 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml Expetiment8_1_DigitalOutput.twx
+Expetiment8_1_DigitalOutput.ncd -o Expetiment8_1_DigitalOutput.twr
+Expetiment8_1_DigitalOutput.pcf -ucf Expetiment8_1_DigitalOutput.ucf
+
+Design file:              Expetiment8_1_DigitalOutput.ncd
+Physical constraint file: Expetiment8_1_DigitalOutput.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock Up_clk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+Up_reset    |    8.313(F)|      SLOW  |   -1.204(F)|      FAST  |Up_clk_BUFGP      |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock Choose_light<0> to Pad
+----------------+-----------------+------------+-----------------+------------+------------------+--------+
+                |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination     |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+----------------+-----------------+------------+-----------------+------------+------------------+--------+
+Digital_light<0>|         7.207(F)|      SLOW  |         4.137(F)|      FAST  |_n0029<1>         |   0.000|
+Digital_light<1>|         7.207(F)|      SLOW  |         4.137(F)|      FAST  |_n0029<1>         |   0.000|
+----------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock Choose_light<1> to Pad
+----------------+-----------------+------------+-----------------+------------+------------------+--------+
+                |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination     |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+----------------+-----------------+------------+-----------------+------------+------------------+--------+
+Digital_light<0>|         7.664(F)|      SLOW  |         4.493(F)|      FAST  |_n0029<1>         |   0.000|
+Digital_light<1>|         7.664(F)|      SLOW  |         4.493(F)|      FAST  |_n0029<1>         |   0.000|
+----------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock Choose_light<2> to Pad
+----------------+-----------------+------------+-----------------+------------+------------------------+--------+
+                |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                        | Clock  |
+Destination     |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)       | Phase  |
+----------------+-----------------+------------+-----------------+------------+------------------------+--------+
+Digital_light<0>|         7.423(F)|      SLOW  |         4.340(F)|      FAST  |_n0029<1>               |   0.000|
+Digital_light<1>|         7.423(F)|      SLOW  |         4.340(F)|      FAST  |_n0029<1>               |   0.000|
+Digital_light<2>|         5.887(R)|      SLOW  |         2.839(R)|      FAST  |Choose_light_2_IBUF_BUFG|   0.000|
+Digital_light<3>|         5.887(R)|      SLOW  |         2.839(R)|      FAST  |Choose_light_2_IBUF_BUFG|   0.000|
+Digital_light<4>|         5.815(R)|      SLOW  |         2.767(R)|      FAST  |Choose_light_2_IBUF_BUFG|   0.000|
+Digital_light<5>|         5.815(R)|      SLOW  |         2.767(R)|      FAST  |Choose_light_2_IBUF_BUFG|   0.000|
+Digital_light<6>|         5.866(R)|      SLOW  |         2.818(R)|      FAST  |Choose_light_2_IBUF_BUFG|   0.000|
+Digital_light<7>|         5.866(R)|      SLOW  |         2.818(R)|      FAST  |Choose_light_2_IBUF_BUFG|   0.000|
+----------------+-----------------+------------+-----------------+------------+------------------------+--------+
+
+Clock to Setup on destination clock Choose_light<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Choose_light<0>|         |         |    3.341|    3.341|
+Choose_light<1>|         |         |    2.845|    2.845|
+Choose_light<2>|         |         |    2.329|    2.329|
+Up_clk         |         |         |   18.910|   16.789|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock Choose_light<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Choose_light<0>|         |         |    2.900|    2.900|
+Choose_light<1>|         |         |    2.404|    2.404|
+Choose_light<2>|         |         |    1.888|    1.888|
+Up_clk         |         |         |   18.910|   16.789|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock Choose_light<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Choose_light<0>|    3.553|    3.553|    3.129|    3.129|
+Choose_light<1>|    2.885|    2.885|    2.633|    2.633|
+Choose_light<2>|         |         |    2.117|    2.117|
+Up_clk         |   15.430|   13.420|   18.910|   16.789|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock Up_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Up_clk         |         |    2.400|   13.694|   12.129|
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Mon May 30 11:08:21 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 189 MB
+
+
+

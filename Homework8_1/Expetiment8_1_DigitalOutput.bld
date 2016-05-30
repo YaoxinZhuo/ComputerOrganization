@@ -1,0 +1,41 @@
+Release 14.7 ngdbuild P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -intstyle
+ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Expetiment8_1_DigitalOutput.ucf -p
+xc6slx16-csg324-3 Expetiment8_1_DigitalOutput.ngc
+Expetiment8_1_DigitalOutput.ngd
+
+Reading NGO file
+"C:/ComputerOrganazationHomework/Homework8_1/Expetiment8_1_DigitalOutput.ngc"
+...
+Loading design module "ipcore_dir/Inst_Rom_8_1.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "Expetiment8_1_DigitalOutput.ucf"
+...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 157268 kilobytes
+
+Writing NGD file "Expetiment8_1_DigitalOutput.ngd" ...
+Total REAL time to NGDBUILD completion:  3 sec
+Total CPU time to NGDBUILD completion:   2 sec
+
+Writing NGDBUILD log file "Expetiment8_1_DigitalOutput.bld"...

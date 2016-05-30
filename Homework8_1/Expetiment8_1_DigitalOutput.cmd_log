@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/ComputerOrganazationHomework/Homework8_1/Expetiment8_1_DigitalOutput.xst" -ofn "C:/ComputerOrganazationHomework/Homework8_1/Expetiment8_1_DigitalOutput.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Expetiment8_1_DigitalOutput.ucf -p xc6slx16-csg324-3 Expetiment8_1_DigitalOutput.ngc Expetiment8_1_DigitalOutput.ngd  
+netgen -intstyle ise -insert_glbl true -w -dir netgen/translate -ofmt verilog -sim Expetiment8_1_DigitalOutput.ngd Expetiment8_1_DigitalOutput_translate.v 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx16-csg324-3 Expetiment8_1_DigitalOutput.ngc Expetiment8_1_DigitalOutput.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Expetiment8_1_DigitalOutput.ucf -p xc6slx16-csg324-3 Expetiment8_1_DigitalOutput.ngc Expetiment8_1_DigitalOutput.ngd  
+xst -intstyle ise -ifn "C:/ComputerOrganazationHomework/Homework8_1/Expetiment8_1_DigitalOutput.xst" -ofn "C:/ComputerOrganazationHomework/Homework8_1/Expetiment8_1_DigitalOutput.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Expetiment8_1_DigitalOutput.ucf -p xc6slx16-csg324-3 Expetiment8_1_DigitalOutput.ngc Expetiment8_1_DigitalOutput.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Expetiment8_1_DigitalOutput_map.ncd Expetiment8_1_DigitalOutput.ngd Expetiment8_1_DigitalOutput.pcf 
+par -w -intstyle ise -ol high -mt off Expetiment8_1_DigitalOutput_map.ncd Expetiment8_1_DigitalOutput.ncd Expetiment8_1_DigitalOutput.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Expetiment8_1_DigitalOutput.twx Expetiment8_1_DigitalOutput.ncd -o Expetiment8_1_DigitalOutput.twr Expetiment8_1_DigitalOutput.pcf -ucf Expetiment8_1_DigitalOutput.ucf 
+bitgen -intstyle ise -f Expetiment8_1_DigitalOutput.ut Expetiment8_1_DigitalOutput.ncd 

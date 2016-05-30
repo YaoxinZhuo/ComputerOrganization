@@ -1,0 +1,28 @@
+Command line:
+   UPUP_8_1_test2_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55574
+
+Mon May 30 07:37:33 2016
+
+
+ Elaboration Time: 0.140625 sec
+
+ Current Memory Usage: 729.33 Meg
+
+ Total Signals          : 195
+ Total Nets             : 834
+ Total Signal Drivers   : 85
+ Total Blocks           : 25
+ Total Primitive Blocks : 18
+ Total Processes        : 104
+ Total Traceable Variables  : 352
+ Total Scalar Nets and Variables : 22410
+
+ Total Simulation Time: 0.15625 sec
+
+ Current Memory Usage: 729.33 Meg
+
+Mon May 30 07:37:44 2016
+

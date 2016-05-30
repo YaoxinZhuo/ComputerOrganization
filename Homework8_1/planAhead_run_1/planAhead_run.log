@@ -1,0 +1,106 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/ComputerOrganazationHomework/Homework8_1/pa.fromHdl.tcl
+# create_project -name Homework8_1 -dir "C:/ComputerOrganazationHomework/Homework8_1/planAhead_run_2" -part xa7a100tcsg324-2I
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "Expetiment8_1_DigitalOutput.ucf" [current_fileset -constrset]
+Adding file 'C:/ComputerOrganazationHomework/Homework8_1/Expetiment8_1_DigitalOutput.ucf' to fileset 'constrs_1'
+# add_files [list {ipcore_dir/Inst_Rom_8_1.ngc}]
+# set hdlfile [add_files [list {ipcore_dir/Inst_Rom_8_1.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {translateInstructAndFunction.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Register_8_1jicunqiDui.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {instruct_Register_8_1.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ALU_8_1fromExperiment3.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Integration_8_1.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Expetiment8_1_DigitalOutput.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top Expetiment8_1_DigitalOutput $srcset
+# add_files [list {Expetiment8_1_DigitalOutput.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xa7a100tcsg324-2I
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "C:/ComputerOrganazationHomework/Homework8_1/ipcore_dir/Inst_Rom_8_1.v" into library work
+Analyzing Verilog file "C:/ComputerOrganazationHomework/Homework8_1/translateInstructAndFunction.v" into library work
+Analyzing Verilog file "C:/ComputerOrganazationHomework/Homework8_1/Register_8_1jicunqiDui.v" into library work
+Analyzing Verilog file "C:/ComputerOrganazationHomework/Homework8_1/instruct_Register_8_1.v" into library work
+Analyzing Verilog file "C:/ComputerOrganazationHomework/Homework8_1/ALU_8_1fromExperiment3.v" into library work
+Analyzing Verilog file "C:/ComputerOrganazationHomework/Homework8_1/Integration_8_1.v" into library work
+Analyzing Verilog file "C:/ComputerOrganazationHomework/Homework8_1/Expetiment8_1_DigitalOutput.v" into library work
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design Inst_Rom_8_1.ngc ...
+WARNING:NetListWriters:298 - No output is written to Inst_Rom_8_1.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file Inst_Rom_8_1.edif ...
+ngc2edif: Total memory usage is 85760 kilobytes
+
+Reading core file 'C:/ComputerOrganazationHomework/Homework8_1/ipcore_dir/Inst_Rom_8_1.ngc' for (cell view 'Inst_Rom_8_1', library 'work', file 'Inst_Rom_8_1.v')
+Parsing EDIF File [./.Xil/PlanAhead-6248-YAOXINZHUO484A/ngc2edif/Inst_Rom_8_1.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-6248-YAOXINZHUO484A/ngc2edif/Inst_Rom_8_1.edif]
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/aartix7/xa7a100t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/aartix7/xa7a100t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/aartix7/xa7a100t/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/drc.xml
+Parsing UCF File [C:/ComputerOrganazationHomework/Homework8_1/Expetiment8_1_DigitalOutput.ucf]
+Finished Parsing UCF File [C:/ComputerOrganazationHomework/Homework8_1/Expetiment8_1_DigitalOutput.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: f42c32ce
+open_rtl_design: Time (s): elapsed = 00:00:28 . Memory (MB): peak = 770.895 ; gain = 329.574
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  Up_reset]]
+startgroup
+set_property package_pin D9 [get_ports Up_clk]
+endgroup
+startgroup
+set_property package_pin C4 [get_ports Up_reset]
+endgroup
+startgroup
+set_property package_pin T11 [get_ports {Digital_light[7]}]
+endgroup
+startgroup
+set_property package_pin R11 [get_ports {Digital_light[6]}]
+endgroup
+startgroup
+set_property package_pin V15 [get_ports {Digital_light[4]}]
+endgroup
+startgroup
+set_property package_pin R11 [get_ports {Digital_light[6]}]
+endgroup
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon May 30 10:18:11 2016...
+INFO: [Common 17-83] Releasing license: PlanAhead

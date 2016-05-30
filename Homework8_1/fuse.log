@@ -1,0 +1,36 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/ComputerOrganazationHomework/Homework8_1/integeration8_1_test1_isim_beh.exe -prj C:/ComputerOrganazationHomework/Homework8_1/integeration8_1_test1_beh.prj work.integeration8_1_test1 work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/ComputerOrganazationHomework/Homework8_1/ipcore_dir/Inst_Rom_8_1.v" into library work
+Analyzing Verilog file "C:/ComputerOrganazationHomework/Homework8_1/translateInstructAndFunction.v" into library work
+Analyzing Verilog file "C:/ComputerOrganazationHomework/Homework8_1/Register_8_1jicunqiDui.v" into library work
+Analyzing Verilog file "C:/ComputerOrganazationHomework/Homework8_1/instruct_Register_8_1.v" into library work
+Analyzing Verilog file "C:/ComputerOrganazationHomework/Homework8_1/ALU_8_1fromExperiment3.v" into library work
+Analyzing Verilog file "C:/ComputerOrganazationHomework/Homework8_1/Integration_8_1.v" into library work
+Analyzing Verilog file "C:/ComputerOrganazationHomework/Homework8_1/integeration8_1_test1.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/ComputerOrganazationHomework/Homework8_1/instruct_Register_8_1.v" Line 46: Port wea is not connected to this instance
+Completed static elaboration
+Fuse Memory Usage: 139316 KB
+Fuse CPU Usage: 265 ms
+Compiling module Register_jicunqiDui
+Compiling module ALU_8_1fromExperiment3
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="artix...
+Compiling module Inst_Rom_8_1
+Compiling module Ins
+Compiling module translateInstructAndFunction
+Compiling module Integration_8_1
+Compiling module integeration8_1_test1
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 8 sub-compilation(s) to finish...
+Compiled 12 Verilog Units
+Built simulation executable C:/ComputerOrganazationHomework/Homework8_1/integeration8_1_test1_isim_beh.exe
+Fuse Memory Usage: 148560 KB
+Fuse CPU Usage: 328 ms

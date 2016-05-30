@@ -1,0 +1,8 @@
+verilog isim_temp "translateInstructAndFunction.v"
+verilog isim_temp "Register_8_1jicunqiDui.v"
+verilog isim_temp "instruct_Register_8_1.v"
+verilog isim_temp "ALU_8_1fromExperiment3.v"
+verilog isim_temp "Integration_8_1.v"
+verilog isim_temp "Expetiment8_1_DigitalOutput.v"
+verilog isim_temp "UPUP_8_1_test.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

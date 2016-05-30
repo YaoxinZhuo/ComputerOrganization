@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Homework8_1.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Expetiment8_1_DigitalOutput.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Expetiment8_1_DigitalOutput.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Expetiment8_1_DigitalOutput.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Expetiment8_1_DigitalOutput.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Expetiment8_1_DigitalOutput.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Expetiment8_1_DigitalOutput.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Expetiment8_1_DigitalOutput.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Expetiment8_1_DigitalOutput.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Expetiment8_1_DigitalOutput.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Expetiment8_1_DigitalOutput.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Expetiment8_1_DigitalOutput.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="Expetiment8_1_DigitalOutput.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Expetiment8_1_DigitalOutput.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Expetiment8_1_DigitalOutput.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Expetiment8_1_DigitalOutput.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Expetiment8_1_DigitalOutput.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Expetiment8_1_DigitalOutput.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="Expetiment8_1_DigitalOutput.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="Expetiment8_1_DigitalOutput.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Expetiment8_1_DigitalOutput.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Expetiment8_1_DigitalOutput_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Expetiment8_1_DigitalOutput_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Expetiment8_1_DigitalOutput_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Expetiment8_1_DigitalOutput_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Expetiment8_1_DigitalOutput_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Expetiment8_1_DigitalOutput_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Expetiment8_1_DigitalOutput_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Expetiment8_1_DigitalOutput_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Expetiment8_1_DigitalOutput_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Expetiment8_1_DigitalOutput_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Expetiment8_1_DigitalOutput_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Expetiment8_1_DigitalOutput_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Expetiment8_1_DigitalOutput_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Expetiment8_1_DigitalOutput_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Expetiment8_1_DigitalOutput_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Integeration_8_1_test1_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Integeration_8_1_test1_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Integeration_8_1_test1_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="UPUP8_1_test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="UPUP8_1_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="UPUP8_1_test_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="UPUP_8_1_test2_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="UPUP_8_1_test2_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="UPUP_8_1_test2_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="UPUP_8_1_test2_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="UPUP_8_1_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="UPUP_8_1_test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="expetiment8_1_digitaloutput.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="expetiment8_1_digitaloutput.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="expetiment8_1_digitaloutput.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="integeration8_1_test1_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="integeration8_1_test1_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="integeration8_1_test1_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="ipcore_dir/coregen.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_2"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_3"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1464576653" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1464576653">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1464576653" xil_pn:in_ck="8111877395808496177" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1464576653">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ALU_8_1fromExperiment3.v"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput.v"/>
+      <outfile xil_pn:name="Integration_8_1.v"/>
+      <outfile xil_pn:name="Register_8_1jicunqiDui.v"/>
+      <outfile xil_pn:name="UPUP_8_1_test.v"/>
+      <outfile xil_pn:name="instruct_Register_8_1.v"/>
+      <outfile xil_pn:name="integeration8_1_test1.v"/>
+      <outfile xil_pn:name="translateInstructAndFunction.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1464576666" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="2744993269282623320" xil_pn:start_ts="1464576666">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1464576666" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-1439522174279117034" xil_pn:start_ts="1464576666">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1464576653" xil_pn:in_ck="8850552170145227129" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="8269586402540599325" xil_pn:start_ts="1464576653">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ipcore_dir/Inst_Rom_8_1.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/Inst_Rom_8_1.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1464576653" xil_pn:in_ck="-1292688100726450506" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1464576653">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ALU_8_1fromExperiment3.v"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput.v"/>
+      <outfile xil_pn:name="Integration_8_1.v"/>
+      <outfile xil_pn:name="Register_8_1jicunqiDui.v"/>
+      <outfile xil_pn:name="UPUP_8_1_test.v"/>
+      <outfile xil_pn:name="instruct_Register_8_1.v"/>
+      <outfile xil_pn:name="integeration8_1_test1.v"/>
+      <outfile xil_pn:name="ipcore_dir/Inst_Rom_8_1.v"/>
+      <outfile xil_pn:name="translateInstructAndFunction.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1464576669" xil_pn:in_ck="-1292688100726450506" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6732607854933104111" xil_pn:start_ts="1464576666">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="integeration8_1_test1_beh.prj"/>
+      <outfile xil_pn:name="integeration8_1_test1_isim_beh.exe"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1464576670" xil_pn:in_ck="1414723432197487823" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="1183556538763922674" xil_pn:start_ts="1464576669">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="integeration8_1_test1_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1464574867" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1464574867">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1464574867" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-2347848476559911058" xil_pn:start_ts="1464574867">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1464577565" xil_pn:in_ck="8850552170145227129" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="8269586402540599325" xil_pn:start_ts="1464577565">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/Inst_Rom_8_1.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/Inst_Rom_8_1.v"/>
+    </transform>
+    <transform xil_pn:name="TRAN_SubProjectAbstractToPreProxy">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1464574867" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="908477143248033328" xil_pn:start_ts="1464574867">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1464575001" xil_pn:in_ck="-3079683564560323832" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1106364426758808884" xil_pn:start_ts="1464575001">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1464575001" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="863857642666198247" xil_pn:start_ts="1464575001">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1464577585" xil_pn:in_ck="4102395943219520669" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="7021548805925878604" xil_pn:start_ts="1464577565">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput.lso"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput.ngc"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput.ngr"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput.prj"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput.stx"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput.syr"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput.xst"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1464577207" xil_pn:in_ck="-8219814431319382683" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-1326532694393876773" xil_pn:start_ts="1464577207">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1464577590" xil_pn:in_ck="-2441181360618614133" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="8794624129333432670" xil_pn:start_ts="1464577585">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput.bld"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput.ngd"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1464577622" xil_pn:in_ck="-5508732982178862715" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="1463976855095865663" xil_pn:start_ts="1464577590">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput.pcf"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput_map.map"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput_map.mrp"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput_map.ncd"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput_map.ngm"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput_map.xrpt"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput_summary.xml"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1464577703" xil_pn:in_ck="4757340466321105534" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-1178055513630676559" xil_pn:start_ts="1464577622">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput.ncd"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput.pad"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput.par"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput.ptwx"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput.unroutes"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput.xpi"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput_pad.csv"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput_pad.txt"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1464577720" xil_pn:in_ck="-8219814431319390308" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="5341574683187206424" xil_pn:start_ts="1464577703">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="expetiment8_1_digitaloutput.bgn"/>
+      <outfile xil_pn:name="expetiment8_1_digitaloutput.bit"/>
+      <outfile xil_pn:name="expetiment8_1_digitaloutput.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1464577703" xil_pn:in_ck="6721398151093229953" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1464577690">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput.twr"/>
+      <outfile xil_pn:name="Expetiment8_1_DigitalOutput.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1464576611" xil_pn:name="TRAN_postXlateSimModel" xil_pn:prop_ck="-7836715498898126425" xil_pn:start_ts="1464576609">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+    </transform>
+  </transforms>
+
+</generated_project>

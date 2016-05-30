@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon May 30 10:15:59 2016
+# Process ID: 7160
+# Log file: C:/ComputerOrganazationHomework/Homework8_1/planAhead_run_2/planAhead.log
+# Journal file: C:/ComputerOrganazationHomework/Homework8_1/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/ComputerOrganazationHomework/Homework8_1/pa.fromHdl.tcl
